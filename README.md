@@ -3,9 +3,9 @@ The Spark MLlib Scala development environment is implemented on Docker.
 
 This work is based on 
 
-[1] https://docs.docker.com/engine/tutorials/dockervolumes
-[2] https://developers.google.com/protocol-buffers
-[3] http://findbugs.sourceforge.net
+[1] https://docs.docker.com/engine/tutorials/dockervolumes, 
+[2] https://developers.google.com/protocol-buffers, 
+[3] http://findbugs.sourceforge.net, and  
 [4] http://spark.apache.org/docs/latest/submitting-applications.html
 
 
