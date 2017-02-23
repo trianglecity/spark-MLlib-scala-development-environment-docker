@@ -1,0 +1,16 @@
+[0m[[0mdebug[0m] [0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0minfo[0m] [0m	published spark-streaming-kafka-0-8-assembly_2.11 to /root/.ivy2/local/org.apache.spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT/poms/spark-streaming-kafka-0-8-assembly_2.11.pom[0m
+[0m[[0minfo[0m] [0m	published spark-streaming-kafka-0-8-assembly_2.11 to /root/.ivy2/local/org.apache.spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT/jars/spark-streaming-kafka-0-8-assembly_2.11.jar[0m
+[0m[[0minfo[0m] [0m	published spark-streaming-kafka-0-8-assembly_2.11 to /root/.ivy2/local/org.apache.spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT/srcs/spark-streaming-kafka-0-8-assembly_2.11-sources.jar[0m
+[0m[[0minfo[0m] [0m	published spark-streaming-kafka-0-8-assembly_2.11 to /root/.ivy2/local/org.apache.spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT/docs/spark-streaming-kafka-0-8-assembly_2.11-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	published ivy to /root/.ivy2/local/org.apache.spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	starting transaction: publish during transaction will be done in [0m
+[0m[[0mdebug[0m] [0m		/root/.m2/repository/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT.part[0m
+[0m[[0mdebug[0m] [0m	and on commit moved to [0m
+[0m[[0mdebug[0m] [0m		/root/.m2/repository/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT[0m
+[0m[[0minfo[0m] [0m	published spark-streaming-kafka-0-8-assembly_2.11 to /root/.m2/repository/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT.part/spark-streaming-kafka-0-8-assembly_2.11-2.1.0-SNAPSHOT.pom[0m
+[0m[[0minfo[0m] [0m	published spark-streaming-kafka-0-8-assembly_2.11 to /root/.m2/repository/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT.part/spark-streaming-kafka-0-8-assembly_2.11-2.1.0-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0m	published spark-streaming-kafka-0-8-assembly_2.11 to /root/.m2/repository/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT.part/spark-streaming-kafka-0-8-assembly_2.11-2.1.0-SNAPSHOT-sources.jar[0m
+[0m[[0minfo[0m] [0m	published spark-streaming-kafka-0-8-assembly_2.11 to /root/.m2/repository/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT.part/spark-streaming-kafka-0-8-assembly_2.11-2.1.0-SNAPSHOT-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	publish commited: moved /root/.m2/repository/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT.part [0m
+[0m[[0minfo[0m] [0m		to /root/.m2/repository/org/apache/spark/spark-streaming-kafka-0-8-assembly_2.11/2.1.0-SNAPSHOT[0m

@@ -1,0 +1,35 @@
+[0m[[0minfo[0m] [0mMain Java API documentation to /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api...[0m
+[0m[[0mdebug[0m] [0mForking javadoc: /usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc @/tmp/sbt_8dbb14/argfile[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/BitArray.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/BloomFilter.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/BloomFilterImpl.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/CountMinSketch.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/CountMinSketchImpl.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/IncompatibleMergeException.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/Murmur3_x86_32.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/Platform.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/Utils.java...[0m
+[0m[[0minfo[0m] [0mConstructing Javadoc information...[0m
+[0m[[0minfo[0m] [0mStandard Doclet version 1.8.0_121[0m
+[0m[[0minfo[0m] [0mBuilding tree for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/org/apache/spark/util/sketch/BloomFilter.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/org/apache/spark/util/sketch/BloomFilter.Version.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/org/apache/spark/util/sketch/CountMinSketch.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/org/apache/spark/util/sketch/CountMinSketch.Version.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/org/apache/spark/util/sketch/IncompatibleMergeException.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/org/apache/spark/util/sketch/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/org/apache/spark/util/sketch/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/org/apache/spark/util/sketch/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/constant-values.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/serialized-form.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/overview-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/index-all.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/deprecated-list.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/allclasses-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/allclasses-noframe.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/index.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/api/help-doc.html...[0m
+[0m[[0mdebug[0m] [0mjavadoc returned exit code: 0[0m
+[0m[[0minfo[0m] [0mMain Java API documentation successful.[0m

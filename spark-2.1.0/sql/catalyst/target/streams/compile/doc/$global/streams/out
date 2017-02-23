@@ -1,0 +1,755 @@
+[0m[[0minfo[0m] [0mMain Scala API documentation to /home/spark_MLlib/spark-2.1.0/sql/catalyst/target/scala-2.11/api...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scaladoc with arguments:[0m
+[0m[[0mdebug[0m] [0m	-groups[0m
+[0m[[0mdebug[0m] [0m	-skip-packages[0m
+[0m[[0mdebug[0m] [0m	org.apache.spark.api.python:org.apache.spark.network:org.apache.spark.deploy:org.apache.spark.util.collection[0m
+[0m[[0mdebug[0m] [0m	-doc-title[0m
+[0m[[0mdebug[0m] [0m	Spark 2.1.0 ScalaDoc[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/target/scala-2.11/api[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/core/target/scala-2.11/spark-core_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/spark-launcher_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/common/tags/target/scala-2.11/spark-tags_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/common/network-common/target/scala-2.11/spark-network-common_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/spark-network-shuffle_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/spark-unsafe_2.11-2.1.0-SNAPSHOT.jar:/root/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.6.jar:/root/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/root/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar:/root/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar:/root/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.0.42.Final.jar:/root/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.5.jar:/root/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar:/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.6.5.jar:/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.6.5.jar:/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.6.5.jar:/root/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar:/root/.ivy2/cache/io.dropwizard.metrics/metrics-core/bundles/metrics-core-3.1.2.jar:/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.16.jar:/root/.ivy2/cache/com.twitter/chill_2.11/jars/chill_2.11-0.8.0.jar:/root/.ivy2/cache/com.twitter/chill-java/jars/chill-java-0.8.0.jar:/root/.ivy2/cache/com.esotericsoftware/kryo-shaded/bundles/kryo-shaded-3.0.3.jar:/root/.ivy2/cache/com.esotericsoftware/minlog/bundles/minlog-1.3.0.jar:/root/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.1.jar:/root/.ivy2/cache/org.apache.avro/avro-mapred/jars/avro-mapred-1.7.7-hadoop2.jar:/root/.ivy2/cache/org.apache.avro/avro-ipc/jars/avro-ipc-1.7.7-tests.jar:/root/.ivy2/cache/org.apache.avro/avro-ipc/jars/avro-ipc-1.7.7.jar:/root/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.7.jar:/root/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar:/root/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13.jar:/root/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.2.6.jar:/root/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar:/root/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar:/root/.ivy2/cache/org.apache.xbean/xbean-asm5-shaded/bundles/xbean-asm5-shaded-4.4.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-client/jars/hadoop-client-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-annotations/jars/hadoop-annotations-2.2.0.jar:/root/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar:/root/.ivy2/cache/org.apache.commons/commons-math/jars/commons-math-2.1.jar:/root/.ivy2/cache/xmlenc/xmlenc/jars/xmlenc-0.52.jar:/root/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar:/root/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/root/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.1.jar:/root/.ivy2/cache/commons-net/commons-net/jars/commons-net-3.1.jar:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/root/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.5.jar:/root/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar:/root/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:/root/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.8.jar:/root/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:/root/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:/root/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-auth/jars/hadoop-auth-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-hdfs/jars/hadoop-hdfs-2.2.0.jar:/root/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.26.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/jars/hadoop-mapreduce-client-app-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/jars/hadoop-mapreduce-client-common-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/jars/hadoop-yarn-common-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/jars/hadoop-yarn-api-2.2.0.jar:/root/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.16.jar:/root/.ivy2/cache/com.google.inject/guice/jars/guice-3.0.jar:/root/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/root/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/root/.ivy2/cache/org.sonatype.sisu.inject/cglib/jars/cglib-2.2.1-v20090111.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/jars/hadoop-yarn-client-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/jars/hadoop-mapreduce-client-core-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/jars/hadoop-yarn-server-common-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/jars/hadoop-mapreduce-client-shuffle-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/jars/hadoop-mapreduce-client-jobclient-2.2.0.jar:/root/.ivy2/cache/net.java.dev.jets3t/jets3t/jars/jets3t-0.7.1.jar:/root/.ivy2/cache/org.apache.curator/curator-recipes/bundles/curator-recipes-2.4.0.jar:/root/.ivy2/cache/org.apache.curator/curator-framework/bundles/curator-framework-2.4.0.jar:/root/.ivy2/cache/org.apache.curator/curator-client/bundles/curator-client-2.4.0.jar:/root/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.5.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-plus/jars/jetty-plus-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-webapp/jars/jetty-webapp-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-xml/jars/jetty-xml-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-security/jars/jetty-security-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-9.2.16.v20160414.jar:/root/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-jndi/jars/jetty-jndi-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-continuation/jars/jetty-continuation-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-proxy/jars/jetty-proxy-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-client/jars/jetty-client-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-servlets/jars/jetty-servlets-9.2.16.v20160414.jar:/root/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.4.1.jar:/root/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.16.jar:/root/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.16.jar:/root/.ivy2/cache/com.ning/compress-lzf/bundles/compress-lzf-1.0.3.jar:/root/.ivy2/cache/net.jpountz.lz4/lz4/jars/lz4-1.3.0.jar:/root/.ivy2/cache/org.roaringbitmap/RoaringBitmap/bundles/RoaringBitmap-0.5.11.jar:/root/.ivy2/cache/org.json4s/json4s-jackson_2.11/jars/json4s-jackson_2.11-3.2.11.jar:/root/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.2.11.jar:/root/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.2.11.jar:/root/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar:/root/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.0.jar:/root/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.0.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/root/.ivy2/cache/org.glassfish.jersey.core/jersey-client/jars/jersey-client-2.22.2.jar:/root/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/jars/javax.ws.rs-api-2.0.1.jar:/root/.ivy2/cache/org.glassfish.jersey.core/jersey-common/jars/jersey-common-2.22.2.jar:/root/.ivy2/cache/javax.annotation/javax.annotation-api/jars/javax.annotation-api-1.2.jar:/root/.ivy2/cache/org.glassfish.jersey.bundles.repackaged/jersey-guava/bundles/jersey-guava-2.22.2.jar:/root/.ivy2/cache/org.glassfish.hk2/hk2-api/jars/hk2-api-2.4.0-b34.jar:/root/.ivy2/cache/org.glassfish.hk2/hk2-utils/jars/hk2-utils-2.4.0-b34.jar:/root/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:/root/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:/root/.ivy2/cache/org.glassfish.hk2/hk2-locator/jars/hk2-locator-2.4.0-b34.jar:/root/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.18.1-GA.jar:/root/.ivy2/cache/org.glassfish.hk2/osgi-resource-locator/jars/osgi-resource-locator-1.0.1.jar:/root/.ivy2/cache/org.glassfish.jersey.core/jersey-server/jars/jersey-server-2.22.2.jar:/root/.ivy2/cache/org.glassfish.jersey.media/jersey-media-jaxb/jars/jersey-media-jaxb-2.22.2.jar:/root/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/root/.ivy2/cache/org.glassfish.jersey.containers/jersey-container-servlet/jars/jersey-container-servlet-2.22.2.jar:/root/.ivy2/cache/org.glassfish.jersey.containers/jersey-container-servlet-core/jars/jersey-container-servlet-core-2.22.2.jar:/root/.ivy2/cache/io.netty/netty/bundles/netty-3.8.0.Final.jar:/root/.ivy2/cache/com.clearspring.analytics/stream/jars/stream-2.7.0.jar:/root/.ivy2/cache/io.dropwizard.metrics/metrics-jvm/bundles/metrics-jvm-3.1.2.jar:/root/.ivy2/cache/io.dropwizard.metrics/metrics-json/bundles/metrics-json-3.1.2.jar:/root/.ivy2/cache/io.dropwizard.metrics/metrics-graphite/bundles/metrics-graphite-3.1.2.jar:/root/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/bundles/jackson-module-scala_2.11-2.6.5.jar:/root/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.6.5.jar:/root/.ivy2/cache/org.apache.ivy/ivy/jars/ivy-2.4.0.jar:/root/.ivy2/cache/oro/oro/jars/oro-2.0.8.jar:/root/.ivy2/cache/net.razorvine/pyrolite/jars/pyrolite-4.13.jar:/root/.ivy2/cache/net.sf.py4j/py4j/jars/py4j-0.10.4.jar:/root/.ivy2/cache/org.apache.commons/commons-crypto/jars/commons-crypto-1.0.0.jar:/root/.ivy2/cache/org.codehaus.janino/janino/jars/janino-3.0.0.jar:/root/.ivy2/cache/org.codehaus.janino/commons-compiler/jars/commons-compiler-3.0.0.jar:/root/.ivy2/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.5.3.jar[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/RowFactory.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/ExpressionDescription.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/ExpressionInfo.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/FixedLengthRowBasedKeyValueBatch.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/RowBasedKeyValueBatch.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/SpecializedGetters.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/UnsafeArrayData.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/UnsafeMapData.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/UnsafeRow.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/VariableLengthRowBasedKeyValueBatch.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/XXH64.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/codegen/BufferHolder.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/codegen/UnsafeArrayWriter.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/codegen/UnsafeRowWriter.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/catalyst/expressions/xml/UDFXPathUtil.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/execution/UnsafeExternalRowSorter.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/execution/UnsafeKeyValueSorter.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/streaming/OutputMode.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/types/DataTypes.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/java/org/apache/spark/sql/types/SQLUserDefinedType.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/AnalysisException.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Encoder.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Encoders.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/InternalOutputModes.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/CatalystConf.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/CatalystTypeConverters.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/InternalRow.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/JavaTypeInference.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/AlreadyExistException.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/CheckAnalysis.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/DecimalPrecision.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/FunctionRegistry.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/MultiInstanceRelation.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/NoSuchItemException.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/ResolveInlineTables.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/ResolveTableValuedFunctions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/SubstituteUnresolvedOrdinals.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/TypeCheckResult.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/TypeCoercion.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/UnsupportedOperationChecker.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/unresolved.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/ExternalCatalog.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/ExternalCatalogUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/GlobalTempViewManager.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/InMemoryCatalog.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/SessionCatalog.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/functionResources.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/interface.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/dsl/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/encoders/ExpressionEncoder.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/encoders/OuterScopes.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/encoders/RowEncoder.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/encoders/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/errors/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/AttributeMap.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/AttributeSet.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/BoundAttribute.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/CallMethodViaReflection.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Canonicalize.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Cast.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/EquivalentExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ExpectsInputTypes.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Expression.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ExpressionSet.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/InputFileName.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/JoinedRow.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/MonotonicallyIncreasingID.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Projection.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ReferenceToExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SortOrder.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SparkPartitionID.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/TimeWindow.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/ApproximatePercentile.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/Average.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/CentralMomentAgg.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/Corr.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/Count.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/Covariance.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/First.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/HyperLogLogPlusPlus.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/Last.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/Max.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/Min.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/Percentile.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/PivotFirst.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/Sum.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/collect.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/interfaces.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/arithmetic.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/bitwiseExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/CodeFormatter.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/CodeGenerator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/CodegenFallback.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/GenerateMutableProjection.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/GenerateOrdering.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/GeneratePredicate.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/GenerateSafeProjection.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/GenerateUnsafeProjection.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/GenerateUnsafeRowJoiner.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/collectionOperations.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/complexTypeCreator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/complexTypeExtractors.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/conditionalExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/datetimeExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/decimalExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/generators.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/grouping.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/hash.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/jsonExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/literals.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/mathExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/misc.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/namedExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/nullExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/objects/objects.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ordering.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/predicates.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/randomExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/regexpExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/rows.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/stringExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/subquery.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/windowExpressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/xml/xpath.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/identifiers.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/json/JSONOptions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/json/JacksonGenerator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/json/JacksonParser.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/json/JacksonUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/PropagateEmptyRelation.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/RewriteDistinctAggregates.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/expressions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/finishAnalysis.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/joins.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/objects.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/subquery.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/LegacyTypeStringParser.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/ParseDriver.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/ParserInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/ParserUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/planning/QueryPlanner.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/planning/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/planning/patterns.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/QueryPlan.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/joinTypes.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/EventTimeWatermark.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/LocalRelation.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/LogicalPlan.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/ScriptTransformation.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/Statistics.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/basicLogicalOperators.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/object.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/partitioning.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/physical/broadcastMode.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/physical/partitioning.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/rules/Rule.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/rules/RuleExecutor.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/rules/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/trees/TreeNode.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/trees/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/AbstractScalaRowIterator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/ArrayBasedMapData.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/ArrayData.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/CaseInsensitiveMap.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/CompressionCodecs.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/DateTimeUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/GenericArrayData.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/MapData.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/NumberConverter.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/ParseModes.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/QuantileSummaries.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/StringKeyHashMap.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/StringUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/TypeUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/AbstractDataType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/ArrayType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/BinaryType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/BooleanType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/ByteType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/CalendarIntervalType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/DataType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/DateType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/Decimal.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/DecimalType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/DoubleType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/FloatType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/IntegerType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/LongType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/MapType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/Metadata.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/NullType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/ObjectType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/ShortType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/StringType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/StructField.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/StructType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/TimestampType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/UDTRegistration.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/UserDefinedType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/target/scala-2.11/src_managed/main/antlr4/org/apache/spark/sql/catalyst/parser/SqlBaseBaseListener.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/target/scala-2.11/src_managed/main/antlr4/org/apache/spark/sql/catalyst/parser/SqlBaseBaseVisitor.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/target/scala-2.11/src_managed/main/antlr4/org/apache/spark/sql/catalyst/parser/SqlBaseLexer.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/target/scala-2.11/src_managed/main/antlr4/org/apache/spark/sql/catalyst/parser/SqlBaseListener.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/target/scala-2.11/src_managed/main/antlr4/org/apache/spark/sql/catalyst/parser/SqlBaseParser.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/sql/catalyst/target/scala-2.11/src_managed/main/antlr4/org/apache/spark/sql/catalyst/parser/SqlBaseVisitor.java[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/StructType.scala:257: Could not find any member to link for "IllegalArgumentException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Expression.scala:343: Variable c undefined in comment for method defineCodeGen in class UnaryExpression[0m
+[0m[[33mwarn[0m] [0m   *   defineCodeGen(ctx, ev, c => s"!($c)")[0m
+[0m[[33mwarn[0m] [0m                                        ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:335: Could not find any member to link for "UnsupportedOperationException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/StructType.scala:283: Could not find any member to link for "IllegalArgumentException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:315: Could not find any member to link for "ClassCastException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:193: Could not find any member to link for "NullPointerException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:201: Could not find any member to link for "NullPointerException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:264: Could not find any member to link for "ClassCastException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:257: Could not find any member to link for "ClassCastException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:242: Could not find any member to link for "NullPointerException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:233: Could not find any member to link for "NullPointerException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:217: Could not find any member to link for "NullPointerException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:300: Could not find any member to link for "ClassCastException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:285: Could not find any member to link for "ClassCastException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:225: Could not find any member to link for "NullPointerException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:293: Could not find any member to link for "ClassCastException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:278: Could not find any member to link for "ClassCastException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:209: Could not find any member to link for "NullPointerException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:250: Could not find any member to link for "ClassCastException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:308: Could not find any member to link for "ClassCastException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:271: Could not find any member to link for "ClassCastException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:345: Could not find any member to link for "UnsupportedOperationException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala:32: Variable tpe undefined in comment for class MutableValue in class MutableValue[0m
+[0m[[33mwarn[0m] [0m * final class Mutable$tpe extends MutableValue {[0m
+[0m[[33mwarn[0m] [0m                       ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala:33: Variable tpe undefined in comment for class MutableValue in class MutableValue[0m
+[0m[[33mwarn[0m] [0m *   var value: $tpe = 0[0m
+[0m[[33mwarn[0m] [0m                 ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala:37: Variable tpe undefined in comment for class MutableValue in class MutableValue[0m
+[0m[[33mwarn[0m] [0m *     v.asInstanceOf[$tpe][0m
+[0m[[33mwarn[0m] [0m                       ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala:40: Variable tpe undefined in comment for class MutableValue in class MutableValue[0m
+[0m[[33mwarn[0m] [0m *     val newCopy = new Mutable$tpe[0m
+[0m[[33mwarn[0m] [0m                                 ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala:50: Variable tpe undefined in comment for class MutableValue in class MutableValue[0m
+[0m[[33mwarn[0m] [0m *   override def set$tpe(ordinal: Int, value: $tpe): Unit = {[0m
+[0m[[33mwarn[0m] [0m                      ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala:50: Variable tpe undefined in comment for class MutableValue in class MutableValue[0m
+[0m[[33mwarn[0m] [0m *   override def set$tpe(ordinal: Int, value: $tpe): Unit = {[0m
+[0m[[33mwarn[0m] [0m                                                ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala:51: Variable tpe undefined in comment for class MutableValue in class MutableValue[0m
+[0m[[33mwarn[0m] [0m *     val currentValue = values(ordinal).asInstanceOf[Mutable$tpe][0m
+[0m[[33mwarn[0m] [0m                                                               ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala:56: Variable tpe undefined in comment for class MutableValue in class MutableValue[0m
+[0m[[33mwarn[0m] [0m *   override def get$tpe(i: Int): $tpe = {[0m
+[0m[[33mwarn[0m] [0m                      ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala:56: Variable tpe undefined in comment for class MutableValue in class MutableValue[0m
+[0m[[33mwarn[0m] [0m *   override def get$tpe(i: Int): $tpe = {[0m
+[0m[[33mwarn[0m] [0m                                    ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/SpecificInternalRow.scala:57: Variable tpe undefined in comment for class MutableValue in class MutableValue[0m
+[0m[[33mwarn[0m] [0m *     values(i).asInstanceOf[Mutable$tpe].value[0m
+[0m[[33mwarn[0m] [0m                                      ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:56: Variable x undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m      val childs = (0 to x - 1).map(x => s"val child$x = children($x)").reduce(_ + "\n  " + _)[0m
+[0m[[33mwarn[0m] [0m                                                     ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:56: Variable x undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m      val childs = (0 to x - 1).map(x => s"val child$x = children($x)").reduce(_ + "\n  " + _)[0m
+[0m[[33mwarn[0m] [0m                                                                   ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:57: Variable x undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m      val converters = (0 to x - 1).map(x => s"lazy val converter$x = CatalystTypeConverters.createToScalaConverter(child$x.dataType)").reduce(_ + "\n  " + _)[0m
+[0m[[33mwarn[0m] [0m                                                                  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:57: Variable x undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m      val converters = (0 to x - 1).map(x => s"lazy val converter$x = CatalystTypeConverters.createToScalaConverter(child$x.dataType)").reduce(_ + "\n  " + _)[0m
+[0m[[33mwarn[0m] [0m                                                                                                                          ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:58: Variable x undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m      val evals = (0 to x - 1).map(x => s"converter$x(child$x.eval(input))").reduce(_ + ",\n      " + _)[0m
+[0m[[33mwarn[0m] [0m                                                    ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:58: Variable x undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m      val evals = (0 to x - 1).map(x => s"converter$x(child$x.eval(input))").reduce(_ + ",\n      " + _)[0m
+[0m[[33mwarn[0m] [0m                                                            ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:60: Variable x undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m      s"""case $x =>[0m
+[0m[[33mwarn[0m] [0m                ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:61: Variable anys undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m      val func = function.asInstanceOf[($anys) => Any][0m
+[0m[[33mwarn[0m] [0m                                         ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:62: Variable childs undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m      $childs[0m
+[0m[[33mwarn[0m] [0m       ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:63: Variable converters undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m      $converters[0m
+[0m[[33mwarn[0m] [0m       ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:66: Variable evals undefined in comment for method userDefinedFunc in class ScalaUDF[0m
+[0m[[33mwarn[0m] [0m          $evals)[0m
+[0m[[33mwarn[0m] [0m           ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:324: Could not find any member to link for "UnsupportedOperationException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/Row.scala:50: Could not find any member to link for "Seq".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/ArrayType.scala:48: Could not find any member to link for "DataTypes.createArrayType()".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/AbstractDataType.scala:108: Could not find any member to link for "AbstractDataType".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/types/StructType.scala:267: Could not find any member to link for "IllegalArgumentException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/package.scala:23: Could not find any member to link for "Catalog".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/DateTimeUtils.scala:371: Could not find any member to link for "Int".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/DateTimeUtils.scala:209: Could not find any member to link for "Long".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/util/ArrayBasedMapData.scala:35: Could not find any member to link for "java.util.Map".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/trees/TreeNode.scala:538: Could not find any member to link for "getNodeNumbered".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/physical/partitioning.scala:46: Could not find any member to link for "Expression".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/physical/partitioning.scala:60: Could not find any member to link for "Expression".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Expression.scala:134: Could not find any member to link for "DataType".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Expression.scala:114: Could not find any member to link for "CodegenContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Expression.scala:89: Could not find any member to link for "ExprCode".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/basicLogicalOperators.scala:61: Could not find any member to link for "Generator".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/partitioning.scala:33: Could not find any member to link for "Expression".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/QueryPlan.scala:182: Could not find any member to link for "ExpressionSet".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/LogicalPlan.scala:150: Could not find any member to link for "NamedExpression".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/LogicalPlan.scala:123: Could not find any member to link for "Attribute".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/LogicalPlan.scala:140: Could not find any member to link for "NamedExpression".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/plans/QueryPlan.scala:189: Could not find any member to link for "Canonicalize".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/planning/QueryPlanner.scala:24: Could not find any member to link for "LogicalPlan".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/planning/QueryPlanner.scala:41: Could not find any member to link for "LogicalPlan".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/planning/patterns.scala:193: Could not find any member to link for "AggregateExpression".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/planning/QueryPlanner.scala:96: Could not find any member to link for "planLater".[0m
+[0m[[33mwarn[0m] [0m  /** Collects placeholders marked as [[planLater]] by strategy and its [[LogicalPlan]]s */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/ParserUtils.scala:188: Could not find any member to link for "LogicalPlan".[0m
+[0m[[33mwarn[0m] [0m    /**[0m
+[0m[[33mwarn[0m] [0m    ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1482: Could not find any member to link for "StructType".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:996: Could not find any member to link for "Cast".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1473: Could not find any member to link for "StructField".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1466: Could not find any member to link for "StructType".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1184: Could not find any member to link for "UnresolvedAttribute".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1497: Could not find any member to link for "StructField".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1489: Could not find any member to link for "StructType".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1169: Could not find any member to link for "UnresolvedAttribute".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1087: Could not find any member to link for "FrameBoundary".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1371: Could not find any member to link for "CalendarInterval".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1381: Could not find any member to link for "CalendarInterval".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:792: Could not find any member to link for "And".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1117: Could not find any member to link for "CreateStruct".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1150: Could not find any member to link for "CaseWhen".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1132: Could not find any member to link for "CaseWhen".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1207: Could not find any member to link for "SortOrder".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1124: Could not find any member to link for "ScalarSubquery".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1191: Could not find any member to link for "UnresolvedExtractValue".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1060: Could not find any member to link for "WindowSpecDefinition".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:1053: Could not find any member to link for "WindowSpecReference".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/parser/AstBuilder.scala:390: Could not find any member to link for "ScriptInputOutputSchema".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/expressions.scala:112: Could not find any member to link for "In".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:454: Could not find any member to link for "Project".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:516: Could not find any member to link for "Repartition".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:617: Could not find any member to link for "Filter".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:967: Could not find any member to link for "Limit".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/objects.scala:66: Could not find any member to link for "TypedFilter".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:591: Could not find any member to link for "Union".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/expressions.scala:37: Could not find any member to link for "Expression".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:209: Could not find any member to link for "LocalLimit".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/expressions.scala:338: Could not find any member to link for "Expression".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:677: Could not find any member to link for "Filter".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:849: Could not find any member to link for "Filter".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:1140: Could not find any member to link for "Aggregate".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:1159: Could not find any member to link for "Aggregate".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:1086: Could not find any member to link for "Distinct".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:1119: Could not find any member to link for "Except".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/finishAnalysis.scala:27: Could not find any member to link for "RuntimeReplaceable".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/Optimizer.scala:1098: Could not find any member to link for "Intersect".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/subquery.scala:104: Could not find any member to link for "ScalarSubquery".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/expressions.scala:516: Could not find any member to link for "Cast".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/optimizer/subquery.scala:320: Could not find any member to link for "Filter".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/encoders/ExpressionEncoder.scala:34: Could not find any member to link for "UnresolvedAttribute".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/encoders/ExpressionEncoder.scala:274: Could not find any member to link for "NamedExpression".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/ExternalCatalog.scala:24: Could not find any member to link for "NoSuchDatabaseException".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/interface.scala:277: Could not find any member to link for "LogicalPlan".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/SessionCatalog.scala:280: Could not find any member to link for "NoSuchTableException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/SessionCatalog.scala:322: Could not find any member to link for "NoSuchTableException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/SessionCatalog.scala:305: Could not find any member to link for "NoSuchTableException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/SessionCatalog.scala:1004: Could not find any member to link for "Expression".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/SessionCatalog.scala:980: Could not find any member to link for "ExpressionInfo".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/SessionCatalog.scala:547: Could not find any member to link for "LogicalPlan".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/catalog/SessionCatalog.scala:919: Could not find any member to link for "FunctionBuilder".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:52: Could not find any member to link for "SessionCatalog".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:2157: Could not find any member to link for "SubqueryAlias".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:2167: Could not find any member to link for "Union".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:2318: Could not find any member to link for "CreateNamedStruct".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/ResolveInlineTables.scala:28: Could not find any member to link for "LocalRelation".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:38: Could not find any member to link for "SessionCatalog".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/TypeCoercion.scala:32: Could not find any member to link for "Rule".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Expression.scala:55: Could not find any member to link for "Coalesce".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Expression.scala:203: Could not find any member to link for "NonSQLExpression".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/TypeCoercion.scala:628: Could not find any member to link for "Expression".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/TypeCoercion.scala:176: Could not find any member to link for "AttributeReference".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/TypeCoercion.scala:105: Could not find any member to link for "findTightestCommonType".[0m
+[0m[[33mwarn[0m] [0m  /** Similar to [[findTightestCommonType]], but can promote all the way to StringType. */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/TypeCoercion.scala:151: Could not find any member to link for "findWiderCommonType".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:1443: Could not find any member to link for "Generator".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:1604: Could not find any member to link for "WindowExpression".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:1886: Could not find any member to link for "If".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:877: Could not find any member to link for "Expression".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:1530: Could not find any member to link for "Project".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:2091: Could not find any member to link for "NewInstance".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:483: Could not find any member to link for "AttributeReference".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:2114: Could not find any member to link for "UpCast".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/analysis/Analyzer.scala:1936: Could not find any member to link for "AggregateWindowFunction".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala:409: Could not find any member to link for "UnsupportedOperationException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/InternalRow.scala:90: Could not find any member to link for "Seq".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/CatalystConf.scala:45: Could not find any member to link for "Resolver".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/namedExpressions.scala:198: Could not find any member to link for "DataType".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/hash.scala:174: Could not find any member to link for "BinaryType".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Expression.scala:31: Could not find any member to link for "CodegenFallback".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ExpressionSet.scala:32: Could not find any member to link for "Set".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/jsonExpressions.scala:483: Could not find any member to link for "StructType".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/hash.scala:40: Could not find any member to link for "BinaryType".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/package.scala:77: Could not find any member to link for "Iterator".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/datetimeExpressions.scala:707: Could not find any member to link for "DateTimeUtils.getDayOfWeekFromString".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/subquery.scala:24: Could not find any member to link for "QueryPlan".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/ScalaUDF.scala:25: Could not find any member to link for "Option".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/hash.scala:147: Could not find any member to link for "BinaryType".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/jsonExpressions.scala:508: Could not find any member to link for "StructType".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/subquery.scala:40: Could not find any member to link for "LogicalPlan".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Expression.scala:279: Could not find any member to link for "initialize()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/Expression.scala:268: Could not find any member to link for "initializeInternal()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/objects/objects.scala:46: Could not find any member to link for "CodegenContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/namedExpressions.scala:146: Could not find any member to link for "CodegenContext".[0m
+[0m[[33mwarn[0m] [0m  /** Just a simple passthrough for code generation. */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/mathExpressions.scala:955: Could not find any member to link for "NumericType".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/literals.scala:117: Could not find any member to link for "ObjectType".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/arithmetic.scala:122: Could not find any member to link for "Decimal".[0m
+[0m[[33mwarn[0m] [0m  /** Name of the function for this expression on a [[Decimal]] type. */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/arithmetic.scala:359: Could not find any member to link for "CodegenContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/arithmetic.scala:273: Could not find any member to link for "CodegenContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/ApproximatePercentile.scala:184: Could not find any member to link for "QuantileSummaries".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/aggregate/ApproximatePercentile.scala:210: Could not find any member to link for "QuantileSummaries".[0m
+[0m[[33mwarn[0m] [0m    /** Returns compressed object of [[QuantileSummaries]] */[0m
+[0m[[33mwarn[0m] [0m    ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/GenerateOrdering.scala:40: Could not find any member to link for "Ordering".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m173 warnings found[0m
+[0m[[0minfo[0m] [0mMain Scala API documentation successful.[0m

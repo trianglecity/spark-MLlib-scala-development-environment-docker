@@ -1,0 +1,14 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/META-INF,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/META-INF)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/org,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/org)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/META-INF/services,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/META-INF/services)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/META-INF/services/org.apache.spark.scheduler.SparkHistoryListenerFactory,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/META-INF/services/org.apache.spark.scheduler.SparkHistoryListenerFactory)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/org/apache,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/org/apache)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/org/apache/spark,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/org/apache/spark)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/org/apache/spark/sql,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/org/apache/spark/sql)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/org/apache/spark/sql/execution,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/org/apache/spark/sql/execution)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/org/apache/spark/sql/execution/ui,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/org/apache/spark/sql/execution/ui)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/org/apache/spark/sql/execution/ui/static,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/org/apache/spark/sql/execution/ui/static)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/org/apache/spark/sql/execution/ui/static/spark-sql-viz.css,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/org/apache/spark/sql/execution/ui/static/spark-sql-viz.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/core/src/main/resources/org/apache/spark/sql/execution/ui/static/spark-sql-viz.js,/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/classes/org/apache/spark/sql/execution/ui/static/spark-sql-viz.js)[0m

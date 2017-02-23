@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/repl/target/scala-2.11/spark-repl_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/repl/Signaling.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/repl/src/main/scala/org/apache/spark/repl/Signaling.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/repl/ExecutorClassLoader.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/repl/src/main/scala/org/apache/spark/repl/ExecutorClassLoader.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/repl/SparkILoop.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/repl/scala-2.11/src/main/scala/org/apache/spark/repl/SparkILoop.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/repl/Main.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/repl/scala-2.11/src/main/scala/org/apache/spark/repl/Main.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

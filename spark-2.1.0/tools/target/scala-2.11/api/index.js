@@ -1,0 +1,1 @@
+Index.PACKAGES = {"org" : [], "org.apache" : [], "org.apache.spark" : [], "org.apache.spark.tools" : [{"object" : "org\/apache\/spark\/tools\/GenerateMIMAIgnore$.html", "name" : "org.apache.spark.tools.GenerateMIMAIgnore"}]};

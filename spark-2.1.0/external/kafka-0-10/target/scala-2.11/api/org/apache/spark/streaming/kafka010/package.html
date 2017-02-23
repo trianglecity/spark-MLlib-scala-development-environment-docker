@@ -1,0 +1,368 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>kafka010 - Spark 2.1.0 ScalaDoc - org.apache.spark.streaming.kafka010</title>
+          <meta name="description" content="kafka010 - Spark 2.1.0 ScalaDoc - org.apache.spark.streaming.kafka010" />
+          <meta name="keywords" content="kafka010 Spark 2.1.0 ScalaDoc org.apache.spark.streaming.kafka010" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'org.apache.spark.streaming.kafka010.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="org">org</a>.<a href="../../../package.html" class="extype" name="org.apache">apache</a>.<a href="../../package.html" class="extype" name="org.apache.spark">spark</a>.<a href="../package.html" class="extype" name="org.apache.spark.streaming">streaming</a></p>
+        <h1>kafka010</h1><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">kafka010</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>Spark Integration for Kafka 0.10
+</p></div><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By Inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="org.apache.spark.streaming.kafka010"><span>kafka010</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show All</span></li>
+            </ol>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="org.apache.spark.streaming.kafka010.CanCommitOffsets" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="CanCommitOffsetsextendsAnyRef"></a>
+      <a id="CanCommitOffsets:CanCommitOffsets"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="CanCommitOffsets.html"><span class="name">CanCommitOffsets</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package@CanCommitOffsetsextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"> :: Experimental ::
+Represents any object that can commit a collection of <a href="OffsetRange.html" class="extype" name="org.apache.spark.streaming.kafka010.OffsetRange">OffsetRange</a>s.</p><div class="fullcomment"><div class="comment cmt"><p> :: Experimental ::
+Represents any object that can commit a collection of <a href="OffsetRange.html" class="extype" name="org.apache.spark.streaming.kafka010.OffsetRange">OffsetRange</a>s.
+The direct Kafka DStream implements this interface (see
+<a href="KafkaUtils$.html#createDirectStream[K,V](jssc:org.apache.spark.streaming.api.java.JavaStreamingContext,locationStrategy:org.apache.spark.streaming.kafka010.LocationStrategy,consumerStrategy:org.apache.spark.streaming.kafka010.ConsumerStrategy[K,V],perPartitionConfig:org.apache.spark.streaming.kafka010.PerPartitionConfig):org.apache.spark.streaming.api.java.JavaInputDStream[org.apache.kafka.clients.consumer.ConsumerRecord[K,V]]" class="extmbr" name="org.apache.spark.streaming.kafka010.KafkaUtils#createDirectStream">KafkaUtils.createDirectStream</a>).</p><pre><span class="kw">val</span> stream = KafkaUtils.createDirectStream(...)
+  ...
+stream.asInstanceOf[CanCommitOffsets].commitAsync(offsets, <span class="kw">new</span> OffsetCommitCallback() {
+  <span class="kw">def</span> onComplete(m: java.util.<span class="std">Map</span>[TopicPartition, OffsetAndMetadata], e: Exception) {
+     <span class="kw">if</span> (<span class="kw">null</span> != e) {
+        <span class="cmt">// error</span>
+     } <span class="kw">else</span> {
+      <span class="cmt">// success</span>
+    }
+  }
+})</pre></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@Experimental</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.spark.streaming.kafka010.ConsumerStrategy" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="ConsumerStrategy[K,V]extendsAnyRef"></a>
+      <a id="ConsumerStrategy[K,V]:ConsumerStrategy[K,V]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ConsumerStrategy.html"><span class="name">ConsumerStrategy</span></a><span class="tparams">[<span name="K">K</span>, <span name="V">V</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package@ConsumerStrategy[K,V]extendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">:: Experimental ::
+Choice of how to create and configure underlying Kafka Consumers on driver and executors.</p><div class="fullcomment"><div class="comment cmt"><p>:: Experimental ::
+Choice of how to create and configure underlying Kafka Consumers on driver and executors.
+See <a href="ConsumerStrategies$.html" class="extype" name="org.apache.spark.streaming.kafka010.ConsumerStrategies">ConsumerStrategies</a> to obtain instances.
+Kafka 0.10 consumers can require additional, sometimes complex, setup after object
+ instantiation. This interface encapsulates that process, and allows it to be checkpointed.</p></div><dl class="paramcmts block"><dt class="tparam">K</dt><dd class="cmt"><p>type of Kafka message key</p></dd><dt class="tparam">V</dt><dd class="cmt"><p>type of Kafka message value</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@Experimental</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.spark.streaming.kafka010.HasOffsetRanges" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="HasOffsetRangesextendsAnyRef"></a>
+      <a id="HasOffsetRanges:HasOffsetRanges"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="HasOffsetRanges.html"><span class="name">HasOffsetRanges</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package@HasOffsetRangesextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents any object that has a collection of <a href="OffsetRange.html" class="extype" name="org.apache.spark.streaming.kafka010.OffsetRange">OffsetRange</a>s.</p><div class="fullcomment"><div class="comment cmt"><p>Represents any object that has a collection of <a href="OffsetRange.html" class="extype" name="org.apache.spark.streaming.kafka010.OffsetRange">OffsetRange</a>s. This can be used to access the
+offset ranges in RDDs generated by the direct Kafka DStream (see
+<a href="KafkaUtils$.html#createDirectStream[K,V](jssc:org.apache.spark.streaming.api.java.JavaStreamingContext,locationStrategy:org.apache.spark.streaming.kafka010.LocationStrategy,consumerStrategy:org.apache.spark.streaming.kafka010.ConsumerStrategy[K,V],perPartitionConfig:org.apache.spark.streaming.kafka010.PerPartitionConfig):org.apache.spark.streaming.api.java.JavaInputDStream[org.apache.kafka.clients.consumer.ConsumerRecord[K,V]]" class="extmbr" name="org.apache.spark.streaming.kafka010.KafkaUtils#createDirectStream">KafkaUtils.createDirectStream</a>).</p><pre>KafkaUtils.createDirectStream(...).foreachRDD { rdd <span class="kw">=&gt;</span>
+   <span class="kw">val</span> offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
+   ...
+}</pre></div></div>
+    </li><li name="org.apache.spark.streaming.kafka010.LocationStrategy" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="LocationStrategyextendsAnyRef"></a>
+      <a id="LocationStrategy:LocationStrategy"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="LocationStrategy.html"><span class="name">LocationStrategy</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package@LocationStrategyextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"> :: Experimental ::
+Choice of how to schedule consumers for a given TopicPartition on an executor.</p><div class="fullcomment"><div class="comment cmt"><p> :: Experimental ::
+Choice of how to schedule consumers for a given TopicPartition on an executor.
+See <a href="LocationStrategies$.html" class="extype" name="org.apache.spark.streaming.kafka010.LocationStrategies">LocationStrategies</a> to obtain instances.
+Kafka 0.10 consumers prefetch messages, so it's important for performance
+to keep cached consumers on appropriate executors, not recreate them for every partition.
+Choice of location is only a preference, not an absolute; partitions may be scheduled elsewhere.
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@Experimental</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.spark.streaming.kafka010.OffsetRange" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="OffsetRangeextendsSerializable"></a>
+      <a id="OffsetRange:OffsetRange"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="OffsetRange.html"><span class="name">OffsetRange</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package@OffsetRangeextendsSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents a range of offsets from a single Kafka TopicPartition.</p><div class="fullcomment"><div class="comment cmt"><p>Represents a range of offsets from a single Kafka TopicPartition. Instances of this class
+can be created with <code>OffsetRange.create()</code>.</p></div></div>
+    </li><li name="org.apache.spark.streaming.kafka010.PerPartitionConfig" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="PerPartitionConfigextendsSerializable"></a>
+      <a id="PerPartitionConfig:PerPartitionConfig"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PerPartitionConfig.html"><span class="name">PerPartitionConfig</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package@PerPartitionConfigextendsSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">:: Experimental ::
+Interface for user-supplied configurations that can't otherwise be set via Spark properties,
+because they need tweaking on a per-partition basis,
+</p><div class="fullcomment"><div class="comment cmt"><p>:: Experimental ::
+Interface for user-supplied configurations that can't otherwise be set via Spark properties,
+because they need tweaking on a per-partition basis,
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@Experimental</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="org.apache.spark.streaming.kafka010.ConsumerStrategies" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ConsumerStrategies"></a>
+      <a id="ConsumerStrategies:ConsumerStrategies"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ConsumerStrategies$.html"><span class="name">ConsumerStrategies</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package@ConsumerStrategies" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">:: Experimental ::
+object for obtaining instances of <a href="ConsumerStrategy.html" class="extype" name="org.apache.spark.streaming.kafka010.ConsumerStrategy">ConsumerStrategy</a>
+</p><div class="fullcomment"><div class="comment cmt"><p>:: Experimental ::
+object for obtaining instances of <a href="ConsumerStrategy.html" class="extype" name="org.apache.spark.streaming.kafka010.ConsumerStrategy">ConsumerStrategy</a>
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@Experimental</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.spark.streaming.kafka010.KafkaUtils" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="KafkaUtils"></a>
+      <a id="KafkaUtils:KafkaUtils"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="KafkaUtils$.html"><span class="name">KafkaUtils</span></a><span class="result"> extends <span class="extype" name="org.apache.spark.internal.Logging">Logging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package@KafkaUtils" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">:: Experimental ::
+object for constructing Kafka streams and RDDs
+</p><div class="fullcomment"><div class="comment cmt"><p>:: Experimental ::
+object for constructing Kafka streams and RDDs
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@Experimental</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.spark.streaming.kafka010.LocationStrategies" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="LocationStrategies"></a>
+      <a id="LocationStrategies:LocationStrategies"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="LocationStrategies$.html"><span class="name">LocationStrategies</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package@LocationStrategies" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">:: Experimental :: object to obtain instances of <a href="LocationStrategy.html" class="extype" name="org.apache.spark.streaming.kafka010.LocationStrategy">LocationStrategy</a></p><div class="fullcomment"><div class="comment cmt"><p>:: Experimental :: object to obtain instances of <a href="LocationStrategy.html" class="extype" name="org.apache.spark.streaming.kafka010.LocationStrategy">LocationStrategy</a></p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@Experimental</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.spark.streaming.kafka010.OffsetRange" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="OffsetRange"></a>
+      <a id="OffsetRange:OffsetRange"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="OffsetRange$.html"><span class="name">OffsetRange</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#org.apache.spark.streaming.kafka010.package@OffsetRange" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Companion object the provides methods to create instances of <a href="OffsetRange.html" class="extype" name="org.apache.spark.streaming.kafka010.OffsetRange">OffsetRange</a>.</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

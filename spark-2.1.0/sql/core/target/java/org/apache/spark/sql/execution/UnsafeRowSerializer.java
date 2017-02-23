@@ -1,0 +1,20 @@
+package org.apache.spark.sql.execution;
+/**
+ * Serializer for serializing {@link UnsafeRow}s during shuffle. Since UnsafeRows are already stored as
+ * bytes, this serializer simply copies those bytes to the underlying output stream. When
+ * deserializing a stream of rows, instances of this serializer mutate and return a single UnsafeRow
+ * instance that is backed by an on-heap byte array.
+ * <p>
+ * Note that this serializer implements only the {@link Serializer} methods that are used during
+ * shuffle, so certain {@link SerializerInstance} methods will throw UnsupportedOperationException.
+ * <p>
+ * param:  numFields the number of fields in the row being serialized.
+ */
+public  class UnsafeRowSerializer extends org.apache.spark.serializer.Serializer implements java.io.Serializable {
+  static protected  scala.Option<java.lang.ClassLoader> defaultClassLoader ()  { throw new RuntimeException(); }
+  static protected  void defaultClassLoader_$eq (scala.Option<java.lang.ClassLoader> x$1)  { throw new RuntimeException(); }
+  static public  org.apache.spark.serializer.Serializer setDefaultClassLoader (java.lang.ClassLoader classLoader)  { throw new RuntimeException(); }
+  public   UnsafeRowSerializer (int numFields, org.apache.spark.sql.execution.metric.SQLMetric dataSize)  { throw new RuntimeException(); }
+  public  org.apache.spark.serializer.SerializerInstance newInstance ()  { throw new RuntimeException(); }
+  public  boolean supportsRelocationOfSerializedObjects ()  { throw new RuntimeException(); }
+}

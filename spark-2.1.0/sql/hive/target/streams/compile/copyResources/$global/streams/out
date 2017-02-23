@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/hive/src/main/resources/META-INF,/home/spark_MLlib/spark-2.1.0/sql/hive/target/scala-2.11/classes/META-INF)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/hive/src/main/resources/META-INF/services,/home/spark_MLlib/spark-2.1.0/sql/hive/target/scala-2.11/classes/META-INF/services)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/sql/hive/src/main/resources/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister,/home/spark_MLlib/spark-2.1.0/sql/hive/target/scala-2.11/classes/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister)[0m

@@ -1,0 +1,25 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/target/scala-2.11/spark-sql-kafka-0-10_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	META-INF[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/resources/META-INF[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/sql/kafka010/CachedKafkaConsumer.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/CachedKafkaConsumer.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/sql/kafka010/KafkaSourceProvider.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/KafkaSourceProvider.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/sql/kafka010/JsonUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/JsonUtils.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/sql/kafka010/KafkaSourceOffset.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/KafkaSourceOffset.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/sql/kafka010/KafkaSource.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/KafkaSource.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/sql/kafka010/StartingOffsets.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/StartingOffsets.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/sql/kafka010/KafkaSourceRDD.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/KafkaSourceRDD.scala[0m
+[0m[[0mdebug[0m] [0m	META-INF/services[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/resources/META-INF/services[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/sql/kafka010/package-info.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/scala/org/apache/spark/sql/kafka010/package-info.java[0m
+[0m[[0mdebug[0m] [0m	META-INF/services/org.apache.spark.sql.sources.DataSourceRegister[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10-sql/src/main/resources/META-INF/services/org.apache.spark.sql.sources.DataSourceRegister[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

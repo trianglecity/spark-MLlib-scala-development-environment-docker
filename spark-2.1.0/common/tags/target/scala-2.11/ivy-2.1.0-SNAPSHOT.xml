@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="org.apache.spark" module="spark-tags_2.11" revision="2.1.0-SNAPSHOT" status="integration" publication="20170223041201">
+		<description>
+		spark-tags
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		
+		
+		
+		
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		
+	</configurations>
+	<publications>
+		<artifact name="spark-tags_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="spark-tags_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="spark-tags_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="spark-tags_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.6" conf="compile->default(compile)"/>
+		<dependency org="org.spark-project.spark" name="unused" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>
+		<dependency org="com.novocode" name="junit-interface" rev="0.11" conf="test->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="compile->default(compile)"/>
+		
+		<override org="com.google.guava" module="guava" matcher="exact" rev="14.0.1"/>
+	</dependencies>
+</ivy-module>

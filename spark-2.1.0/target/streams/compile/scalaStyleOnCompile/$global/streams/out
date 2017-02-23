@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0mscalastyle using config /home/spark_MLlib/spark-2.1.0/scalastyle-on-compile.generated.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0minfo[0m] [0mProcessed 0 file(s)[0m
+[0m[[0minfo[0m] [0mFound 0 errors[0m
+[0m[[0minfo[0m] [0mFound 0 warnings[0m
+[0m[[0minfo[0m] [0mFound 0 infos[0m
+[0m[[0minfo[0m] [0mFinished in 20 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: /home/spark_MLlib/spark-2.1.0/target[0m

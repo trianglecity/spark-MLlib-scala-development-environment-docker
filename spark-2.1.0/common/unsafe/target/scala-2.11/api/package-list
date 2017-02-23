@@ -1,0 +1,7 @@
+org.apache.spark.sql.catalyst.expressions
+org.apache.spark.unsafe
+org.apache.spark.unsafe.array
+org.apache.spark.unsafe.bitset
+org.apache.spark.unsafe.hash
+org.apache.spark.unsafe.memory
+org.apache.spark.unsafe.types

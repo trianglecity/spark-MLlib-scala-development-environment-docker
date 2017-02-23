@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0mMain Scala API documentation to /home/spark_MLlib/spark-2.1.0/tools/target/scala-2.11/api...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scaladoc with arguments:[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-P:genjavadoc:out=/home/spark_MLlib/spark-2.1.0/tools/target/java[0m
+[0m[[0mdebug[0m] [0m	-P:genjavadoc:strictVisibility=true[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/root/.ivy2/cache/com.typesafe.genjavadoc/genjavadoc-plugin_2.11.8/jars/genjavadoc-plugin_2.11.8-0.10.jar[0m
+[0m[[0mdebug[0m] [0m	-target:jvm-1.7[0m
+[0m[[0mdebug[0m] [0m	-sourcepath[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/tools/target/scala-2.11/api[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/root/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.8.jar:/root/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/root/.ivy2/cache/org.clapper/classutil_2.11/jars/classutil_2.11-1.0.6.jar:/root/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.2.jar:/root/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-5.0.2.jar:/root/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-5.0.2.jar:/root/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-5.0.2.jar:/root/.ivy2/cache/org.clapper/grizzled-scala_2.11/jars/grizzled-scala_2.11-1.4.0.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-async_2.11/bundles/scala-async_2.11-0.9.1.jar:/root/.ivy2/cache/jline/jline/jars/jline-2.6.jar:/root/.ivy2/cache/org.clapper/grizzled-slf4j_2.11/jars/grizzled-slf4j_2.11-1.0.2.jar:/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar:/root/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar:/root/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/tools/src/main/scala/org/apache/spark/tools/GenerateMIMAIgnore.scala[0m
+[0m[[33mwarn[0m] [0mdropping dependency on node with no phase object: uncurry[0m
+[0m[[0minfo[0m] [0mMain Scala API documentation successful.[0m

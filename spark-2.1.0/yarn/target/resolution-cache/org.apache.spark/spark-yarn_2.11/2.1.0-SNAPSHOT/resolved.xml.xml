@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="org.apache.spark"
+		module="spark-yarn_2.11"
+		revision="2.1.0-SNAPSHOT"
+		status="integration"
+		publication="20170223040813"
+	>
+		<description>
+		spark-yarn
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="spark-yarn_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="spark-yarn_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="spark-yarn_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="spark-yarn_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.1.0-SNAPSHOT" conf="compile->default(compile);test->test"/>
+		<dependency org="org.apache.spark" name="spark-network-yarn_2.11" rev="2.1.0-SNAPSHOT" conf="test->test"/>
+		<dependency org="org.apache.spark" name="spark-tags_2.11" rev="2.1.0-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-yarn-api" rev="2.7.3" conf="compile->default(compile)">
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.ow2.asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.jboss.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="commons-logging" module="commons-logging" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.jersey-test-framework" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.contribs" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.hadoop" name="hadoop-yarn-common" rev="2.7.3" conf="compile->default(compile)">
+			<exclude org="asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.ow2.asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.jboss.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="commons-logging" module="commons-logging" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.jersey-test-framework" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.contribs" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.hadoop" name="hadoop-yarn-server-web-proxy" rev="2.7.3" conf="compile->default(compile)">
+			<exclude org="asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.ow2.asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.jboss.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="commons-logging" module="commons-logging" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.jersey-test-framework" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.contribs" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.hadoop" name="hadoop-yarn-client" rev="2.7.3" conf="compile->default(compile)">
+			<exclude org="asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.ow2.asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.jboss.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="commons-logging" module="commons-logging" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.jersey-test-framework" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.contribs" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.hadoop" name="hadoop-client" rev="2.7.3" conf="compile->default(compile)">
+			<exclude org="asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.codehaus.jackson" module="jackson-mapper-asl" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.ow2.asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.jboss.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="commons-logging" module="commons-logging" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.mockito" module="mockito-all" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.mortbay.jetty" module="servlet-api-2.5" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="junit" module="junit" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.jersey-test-framework" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.contribs" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="com.google.guava" name="guava" rev="14.0.1" conf="provided->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-server" rev="9.2.16.v20160414" conf="provided->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-plus" rev="9.2.16.v20160414" conf="provided->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-util" rev="9.2.16.v20160414" conf="provided->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-http" rev="9.2.16.v20160414" conf="provided->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.2.16.v20160414" conf="provided->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-servlets" rev="9.2.16.v20160414" conf="provided->default(compile)"/>
+		<dependency org="org.eclipse.jetty.orbit" name="javax.servlet.jsp" rev="2.2.0.v201112011158" conf="test->default(compile)"/>
+		<dependency org="org.eclipse.jetty.orbit" name="javax.servlet.jsp.jstl" rev="1.2.0.v201105211821" conf="test->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-yarn-server-tests" rev="2.7.3" conf="test->default(compile)">
+			<artifact name="hadoop-yarn-server-tests" type="jar" ext="jar" conf="*" e:classifier="tests"/>
+			<exclude org="asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.ow2.asm" module="asm" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.jboss.netty" module="netty" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="javax.servlet" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="commons-logging" module="commons-logging" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.jersey-test-framework" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.sun.jersey.contribs" module="*" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.mockito" name="mockito-core" rev="1.10.19" conf="test->default(compile)"/>
+		<dependency org="org.mortbay.jetty" name="jetty" rev="6.1.26" conf="test->default(compile)">
+			<exclude org="org.mortbay.jetty" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="com.sun.jersey" name="jersey-core" rev="1.9" conf="test->default(compile)"/>
+		<dependency org="com.sun.jersey" name="jersey-json" rev="1.9" conf="test->default(compile)"/>
+		<dependency org="com.sun.jersey" name="jersey-server" rev="1.9" conf="test->default(compile)"/>
+		<dependency org="com.sun.jersey.contribs" name="jersey-guice" rev="1.9" conf="test->default(compile)"/>
+		<dependency org="org.spark-project.hive" name="hive-exec" rev="1.2.1.spark2" conf="test->default(compile)">
+			<exclude org="org.spark-project.hive" module="hive-metastore" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.spark-project.hive" module="hive-shims" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.spark-project.hive" module="hive-ant" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.spark-project.hive" module="spark-client" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="ant" module="ant" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.ant" module="ant" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.esotericsoftware.kryo" module="kryo" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="commons-codec" module="commons-codec" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="commons-httpclient" module="commons-httpclient" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.avro" module="avro-mapred" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.calcite" module="calcite-core" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.curator" module="apache-curator" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.curator" module="curator-client" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.curator" module="curator-framework" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.thrift" module="libthrift" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.thrift" module="libfb303" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.zookeeper" module="zookeeper" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="slf4j-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="slf4j-log4j12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="log4j" module="log4j" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="commons-logging" module="commons-logging" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.codehaus.groovy" module="groovy-all" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="jline" module="jline" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.json" module="json" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.spark-project.hive" name="hive-metastore" rev="1.2.1.spark2" conf="test->default(compile)">
+			<exclude org="org.spark-project.hive" module="hive-serde" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.spark-project.hive" module="hive-shims" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.thrift" module="libfb303" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.apache.thrift" module="libthrift" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.mortbay.jetty" module="servlet-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="com.google.guava" module="guava" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="slf4j-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+			<exclude org="org.slf4j" module="slf4j-log4j12" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.thrift" name="libthrift" rev="0.9.2" conf="test->default(compile)">
+			<exclude org="org.slf4j" module="slf4j-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.thrift" name="libfb303" rev="0.9.2" conf="test->default(compile)">
+			<exclude org="org.slf4j" module="slf4j-api" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.spark-project.spark" name="unused" rev="1.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.6" conf="test->default(compile)"/>
+		<dependency org="junit" name="junit" rev="4.12" conf="test->default(compile)"/>
+		<dependency org="com.novocode" name="junit-interface" rev="0.11" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.genjavadoc" name="genjavadoc-plugin_2.11.8" rev="0.10" conf="plugin->default(compile)"/>
+		<override org="com.google.guava" module="guava" matcher="exact" rev="14.0.1"/>
+	</dependencies>
+</ivy-module>

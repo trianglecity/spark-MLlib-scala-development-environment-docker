@@ -1,0 +1,33 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/spark-launcher_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/SparkSubmitOptionParser.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/SparkSubmitOptionParser.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/NamedThreadFactory.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/NamedThreadFactory.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/LauncherServer.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/LauncherServer.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/Main.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/Main.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/LauncherProtocol.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/LauncherProtocol.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/LauncherConnection.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/LauncherConnection.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/SparkClassCommandBuilder.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/SparkClassCommandBuilder.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/SparkSubmitCommandBuilder.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/SparkSubmitCommandBuilder.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/package-info.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/package-info.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/SparkLauncher.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/SparkLauncher.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/OutputRedirector.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/OutputRedirector.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/ChildProcAppHandle.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/ChildProcAppHandle.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/AbstractCommandBuilder.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/AbstractCommandBuilder.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/SparkAppHandle.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/SparkAppHandle.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/launcher/CommandBuilderUtils.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/CommandBuilderUtils.java[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

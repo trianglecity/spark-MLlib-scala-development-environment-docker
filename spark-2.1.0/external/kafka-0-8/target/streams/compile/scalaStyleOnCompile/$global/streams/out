@@ -1,0 +1,30 @@
+[0m[[0minfo[0m] [0mscalastyle using config /home/spark_MLlib/spark-2.1.0/scalastyle-on-compile.generated.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/OffsetRange.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/OffsetRange.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/package.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/package.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/Broker.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/Broker.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/DirectKafkaInputDStream.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/DirectKafkaInputDStream.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaUtils.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaUtils.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaTestUtils.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaTestUtils.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaInputDStream.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaInputDStream.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaRDDPartition.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaRDDPartition.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/ReliableKafkaReceiver.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/ReliableKafkaReceiver.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaCluster.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaCluster.scala[0m
+[0m[[0mdebug[0m] [0mstart file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaRDD.scala[0m
+[0m[[0mdebug[0m] [0mend file /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaRDD.scala[0m
+[0m[[0minfo[0m] [0mProcessed 11 file(s)[0m
+[0m[[0minfo[0m] [0mFound 0 errors[0m
+[0m[[0minfo[0m] [0mFound 0 warnings[0m
+[0m[[0minfo[0m] [0mFound 0 infos[0m
+[0m[[0minfo[0m] [0mFinished in 1 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/target[0m

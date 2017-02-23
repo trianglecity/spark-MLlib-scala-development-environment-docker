@@ -1,0 +1,5 @@
+org.apache.spark.network.sasl
+org.apache.spark.network.shuffle
+org.apache.spark.network.shuffle.mesos
+org.apache.spark.network.shuffle.protocol
+org.apache.spark.network.shuffle.protocol.mesos

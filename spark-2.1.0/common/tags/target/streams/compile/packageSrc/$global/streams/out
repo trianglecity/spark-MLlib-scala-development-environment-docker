@@ -1,0 +1,25 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/common/tags/target/scala-2.11/spark-tags_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/annotation/Private.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/java/org/apache/spark/annotation/Private.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/tags/DockerTest.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/java/org/apache/spark/tags/DockerTest.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/annotation/package-info.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/scala/org/apache/spark/annotation/package-info.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/annotation/Since.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/scala/org/apache/spark/annotation/Since.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/tags/ExtendedHiveTest.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/java/org/apache/spark/tags/ExtendedHiveTest.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/annotation/Experimental.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/java/org/apache/spark/annotation/Experimental.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/annotation/InterfaceStability.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/java/org/apache/spark/annotation/InterfaceStability.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/annotation/DeveloperApi.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/java/org/apache/spark/annotation/DeveloperApi.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/tags/ExtendedYarnTest.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/java/org/apache/spark/tags/ExtendedYarnTest.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/annotation/AlphaComponent.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/java/org/apache/spark/annotation/AlphaComponent.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/annotation/package.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/tags/src/main/scala/org/apache/spark/annotation/package.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

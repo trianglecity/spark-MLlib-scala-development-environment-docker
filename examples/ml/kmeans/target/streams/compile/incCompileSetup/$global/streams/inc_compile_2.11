@@ -1,0 +1,155 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+4 items
+0 -> -source
+1 -> 1.8
+2 -> -target
+3 -> 1.8
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+3 items
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> /home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes/kmeans$$anonfun$main$1.class
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> /home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes/kmeans$.class
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> /home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes/kmeans.class
+binary dependencies:
+5 items
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> /home/spark_MLlib/examples/ml/kmeans/lib/spark-mllib_2.11-2.1.0.jar
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> /home/spark_MLlib/examples/ml/kmeans/lib/spark-sql_2.11-2.1.0.jar
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> /root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> /root/.ivy2/local/org.apache.spark/spark-mllib-local_2.11/2.1.0-SNAPSHOT/jars/spark-mllib-local_2.11.jar
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+3 items
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> kmeans
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> kmeans$
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> kmeans$$anonfun$main$1
+used names:
+61 items
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> <init>
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> <repeated>
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> ?0
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Any
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> AnyRef
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Array
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> ArrayOps
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Builder
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Class
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> DataFrame
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> DataFrameReader
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Dataset
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Double
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Function1
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Int
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> KMeans
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> KMeansModel
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Long
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Nothing
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Object
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Predef
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> SparkSession
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> String
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> StringContext
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> T
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> U
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Unit
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> Vector
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> WSSSE
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> _$2
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> _$3
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> apache
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> appName
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> builder
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> clusterCenters
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> clustering
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> computeCost
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> dataset
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> fit
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> foreach
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> format
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> getClass
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> getOrCreate
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> getSimpleName
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> kmeans
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> load
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> master
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> ml
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> model
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> org
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> package
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> println
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> read
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> refArrayOps
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> s
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> scala
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> setK
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> setSeed
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> spark
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> sql
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> stop
+product stamps:
+3 items
+/home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes/kmeans$$anonfun$main$1.class -> lastModified(1487823431000)
+/home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes/kmeans$.class -> lastModified(1487823431000)
+/home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes/kmeans.class -> lastModified(1487823431000)
+source stamps:
+1 items
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> hash(a9db398c43372cbccfbef40d2c0cc74df3556ebc)
+binary stamps:
+5 items
+/home/spark_MLlib/examples/ml/kmeans/lib/spark-mllib_2.11-2.1.0.jar -> lastModified(1487725552000)
+/home/spark_MLlib/examples/ml/kmeans/lib/spark-sql_2.11-2.1.0.jar -> lastModified(1487725442000)
+/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/root/.ivy2/local/org.apache.spark/spark-mllib-local_2.11/2.1.0-SNAPSHOT/jars/spark-mllib-local_2.11.jar -> lastModified(1487822806000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1485187082000)
+class names:
+5 items
+/home/spark_MLlib/examples/ml/kmeans/lib/spark-mllib_2.11-2.1.0.jar -> org.apache.spark.ml.clustering.KMeansModel
+/home/spark_MLlib/examples/ml/kmeans/lib/spark-sql_2.11-2.1.0.jar -> org.apache.spark.sql.package$
+/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Predef$
+/root/.ivy2/local/org.apache.spark/spark-mllib-local_2.11/2.1.0-SNAPSHOT/jars/spark-mllib-local_2.11.jar -> org.apache.spark.ml.linalg.Vector
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhweZ65rAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw/92qSnQABm5vdGlmeXNxAH4ADPN2+GZ0AAR3YWl0c3EAfgAMLoohdHQADSRhc0luc3RhbmNlT2ZzcQB+AAyPKe9udAAGZXF1YWxzc3EAfgAMJGF5knQADGFzSW5zdGFuY2VPZnNxAH4ADIubxsZ0AAxzeW5jaHJvbml6ZWRzcQB+AAyRl20HdAANJGlzSW5zdGFuY2VPZnNxAH4ADDevSK50AARtYWluc3EAfgAMHDWLMXQACW5vdGlmeUFsbHNxAH4ADA/2sTR0AAxpc0luc3RhbmNlT2ZzcQB+AAzQgkN2dAACPT1zcQB+AAwJcznIdAAFY2xvbmVzcQB+AAzm55BKdAAIdG9TdHJpbmdzcQB+AAydZhYPdAACIT1zcQB+AAwnRjVNdAAIZ2V0Q2xhc3NzcQB+AAyFiwGldAACbmVzcQB+AAyfhtoOdAACZXFzcQB+AAwXsFOndAACIyNzcQB+AAwN6PLtdAAIZmluYWxpemVzcQB+AAwpa7mAdAAGa21lYW5zc3EAfgAMo0cDYXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgA1dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBYc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXXNxAH4AWHVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AHXVxAH4AUAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBcdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGV4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AGxbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AFxzcQB+AGt0AAVBcnJheXEAfgBxdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AGt0AAZTdHJpbmdzcQB+AG9zcQB+AHJ1cQB+AHUAAAADc3EAfgB3dAAEamF2YXNxAH4Ad3QABGxhbmdxAH4AfHNxAH4AWHVxAH4APAAAAABzcQB+AFh1cQB+AJAAAAACc3EAfgBrdAAGT2JqZWN0cQB+AJRzcQB+AGt0AANBbnlxAH4AcXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFaaS/aqXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AD4vaG9tZS9zcGFya19NTGxpYi9leGFtcGxlcy9tbC9rbWVhbnMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKnbOYxDNyy8z770DSwMx03zVW68
+external apis:
+0 items
+source infos:
+1 items
+/home/spark_MLlib/examples/ml/kmeans/src/main/scala/kmeans.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWmkv2ql1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9ob21lL3NwYXJrX01MbGliL2V4YW1wbGVzL21sL2ttZWFucy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

@@ -1,0 +1,8 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/examples/src/main/resources/full_user.avsc,/home/spark_MLlib/spark-2.1.0/examples/target/scala-2.11/classes/full_user.avsc)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/examples/src/main/resources/user.avsc,/home/spark_MLlib/spark-2.1.0/examples/target/scala-2.11/classes/user.avsc)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/examples/src/main/resources/people.txt,/home/spark_MLlib/spark-2.1.0/examples/target/scala-2.11/classes/people.txt)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/examples/src/main/resources/kv1.txt,/home/spark_MLlib/spark-2.1.0/examples/target/scala-2.11/classes/kv1.txt)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/examples/src/main/resources/users.avro,/home/spark_MLlib/spark-2.1.0/examples/target/scala-2.11/classes/users.avro)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/examples/src/main/resources/people.json,/home/spark_MLlib/spark-2.1.0/examples/target/scala-2.11/classes/people.json)[0m
+[0m[[0mdebug[0m] [0m	(/home/spark_MLlib/spark-2.1.0/examples/src/main/resources/users.parquet,/home/spark_MLlib/spark-2.1.0/examples/target/scala-2.11/classes/users.parquet)[0m

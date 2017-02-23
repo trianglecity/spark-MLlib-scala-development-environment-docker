@@ -1,0 +1,6 @@
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/core/src/main/scala/org/apache/spark/util/AccumulatorV2.scala:477: trait AccumulableParam in package spark is deprecated: use AccumulatorV2[0m
+[0m[[33mwarn[0m] [0m    param: org.apache.spark.AccumulableParam[R, T]) extends AccumulatorV2[T, R] {[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/core/src/main/scala/org/apache/spark/util/AccumulatorV2.scala:477: trait AccumulableParam in package spark is deprecated: use AccumulatorV2[0m
+[0m[[33mwarn[0m] [0m    param: org.apache.spark.AccumulableParam[R, T]) extends AccumulatorV2[T, R] {[0m
+[0m[[33mwarn[0m] [0m[0m

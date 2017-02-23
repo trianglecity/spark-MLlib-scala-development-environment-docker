@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/external/flume/target/scala-2.11/spark-streaming-flume_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/EventTransformer.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume/src/main/scala/org/apache/spark/streaming/flume/EventTransformer.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/package-info.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume/src/main/scala/org/apache/spark/streaming/flume/package-info.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/FlumeInputDStream.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume/src/main/scala/org/apache/spark/streaming/flume/FlumeInputDStream.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/PollingFlumeTestUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume/src/main/scala/org/apache/spark/streaming/flume/PollingFlumeTestUtils.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/FlumePollingInputDStream.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume/src/main/scala/org/apache/spark/streaming/flume/FlumePollingInputDStream.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/FlumeTestUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume/src/main/scala/org/apache/spark/streaming/flume/FlumeTestUtils.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/package.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume/src/main/scala/org/apache/spark/streaming/flume/package.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/FlumeUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume/src/main/scala/org/apache/spark/streaming/flume/FlumeUtils.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/FlumeBatchFetcher.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume/src/main/scala/org/apache/spark/streaming/flume/FlumeBatchFetcher.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

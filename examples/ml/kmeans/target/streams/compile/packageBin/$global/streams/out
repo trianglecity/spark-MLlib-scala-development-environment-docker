@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/kmeans_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	kmeans.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes/kmeans.class[0m
+[0m[[0mdebug[0m] [0m	sample_kmeans_data.txt[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes/sample_kmeans_data.txt[0m
+[0m[[0mdebug[0m] [0m	kmeans$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes/kmeans$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	kmeans$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/examples/ml/kmeans/target/scala-2.11/classes/kmeans$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

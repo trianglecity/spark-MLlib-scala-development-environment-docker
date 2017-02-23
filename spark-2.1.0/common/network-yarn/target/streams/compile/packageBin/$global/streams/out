@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/common/network-yarn/target/scala-2.11/spark-network-yarn_2.11-2.1.0-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/network/yarn/YarnShuffleService$AppId.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/network-yarn/target/scala-2.11/classes/org/apache/spark/network/yarn/YarnShuffleService$AppId.class[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/network[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/network-yarn/target/scala-2.11/classes/org/apache/spark/network[0m
+[0m[[0mdebug[0m] [0m	org[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/network-yarn/target/scala-2.11/classes/org[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/network-yarn/target/scala-2.11/classes/org/apache/spark[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/network/yarn[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/network-yarn/target/scala-2.11/classes/org/apache/spark/network/yarn[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/network/yarn/util/HadoopConfigProvider.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/network-yarn/target/scala-2.11/classes/org/apache/spark/network/yarn/util/HadoopConfigProvider.class[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/network/yarn/YarnShuffleService.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/network-yarn/target/scala-2.11/classes/org/apache/spark/network/yarn/YarnShuffleService.class[0m
+[0m[[0mdebug[0m] [0m	org/apache[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/network-yarn/target/scala-2.11/classes/org/apache[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/network/yarn/util[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/network-yarn/target/scala-2.11/classes/org/apache/spark/network/yarn/util[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

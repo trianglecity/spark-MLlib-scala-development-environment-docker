@@ -1,0 +1,27 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/target/scala-2.11/spark-streaming-kafka-0-10_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/LocationStrategy.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/LocationStrategy.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/DirectKafkaInputDStream.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/DirectKafkaInputDStream.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/KafkaUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/KafkaUtils.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/KafkaRDD.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/KafkaRDD.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/KafkaTestUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/KafkaTestUtils.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/package.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/package.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/OffsetRange.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/OffsetRange.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/package-info.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/package-info.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/KafkaRDDPartition.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/KafkaRDDPartition.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/ConsumerStrategy.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/ConsumerStrategy.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/PerPartitionConfig.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/PerPartitionConfig.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka010/CachedKafkaConsumer.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-10/src/main/scala/org/apache/spark/streaming/kafka010/CachedKafkaConsumer.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

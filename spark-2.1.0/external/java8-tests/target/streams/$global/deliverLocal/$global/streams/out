@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m:: delivering :: org.apache.spark#java8-tests_2.11;2.1.0 :: 2.1.0 :: release :: Thu Feb 23 04:12:01 UTC 2017[0m
+[0m[[0mdebug[0m] [0m	options = status=release pubdate=Thu Feb 23 04:12:01 UTC 2017 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m	delivering ivy file to /home/spark_MLlib/spark-2.1.0/external/java8-tests/target/scala-2.11/ivy-2.1.0.xml[0m
+[0m[[0mdebug[0m] [0mno default cache defined: set to /root/.ivy2/cache[0m
+[0m[[0mdebug[0m] [0mno default cache defined: set to /root/.ivy2/cache[0m
+[0m[[0mdebug[0m] [0m	deliver done (22ms)[0m

@@ -1,0 +1,27 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/target/scala-2.11/spark-streaming-kafka-0-8_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/package.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/package.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/KafkaTestUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaTestUtils.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/KafkaUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaUtils.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/DirectKafkaInputDStream.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/DirectKafkaInputDStream.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/OffsetRange.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/OffsetRange.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/ReliableKafkaReceiver.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/ReliableKafkaReceiver.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/KafkaInputDStream.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaInputDStream.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/KafkaRDD.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaRDD.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/KafkaCluster.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaCluster.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/KafkaRDDPartition.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/KafkaRDDPartition.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/Broker.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/Broker.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/kafka/package-info.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/kafka-0-8/src/main/scala/org/apache/spark/streaming/kafka/package-info.java[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

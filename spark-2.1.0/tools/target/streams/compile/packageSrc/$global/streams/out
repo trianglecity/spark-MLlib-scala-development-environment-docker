@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/tools/target/scala-2.11/spark-tools_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/tools/GenerateMIMAIgnore.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/tools/src/main/scala/org/apache/spark/tools/GenerateMIMAIgnore.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

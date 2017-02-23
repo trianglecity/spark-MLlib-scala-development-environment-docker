@@ -1,0 +1,83 @@
+[0m[[0minfo[0m] [0mMain Java API documentation to /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api...[0m
+[0m[[0mdebug[0m] [0mForking javadoc: /usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc @/tmp/sbt_371b4a5a/argfile[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/sasl/ShuffleSecretManager.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/BlockFetchingListener.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleClient.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/OneForOneBlockFetcher.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/RetryingBlockFetcher.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/ShuffleClient.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/ShuffleIndexInformation.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/ShuffleIndexRecord.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/mesos/MesosExternalShuffleClient.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/OpenBlocks.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/RegisterExecutor.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/StreamHandle.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/UploadBlock.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/protocol/mesos/ShuffleServiceHeartbeat.java...[0m
+[0m[[0minfo[0m] [0mConstructing Javadoc information...[0m
+[0m[[0minfo[0m] [0mStandard Doclet version 1.8.0_121[0m
+[0m[[0minfo[0m] [0mBuilding tree for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/BlockFetchingListener.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.html...[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.java:158: warning: no description for @param[0m
+[0m[[33mwarn[0m] [0m   * @param appExecId[0m
+[0m[[33mwarn[0m] [0m     ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.java:159: warning: no description for @param[0m
+[0m[[33mwarn[0m] [0m   * @param executorInfo[0m
+[0m[[33mwarn[0m] [0m     ^[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/ExternalShuffleBlockResolver.AppExecId.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/ExternalShuffleClient.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/OneForOneBlockFetcher.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/RetryingBlockFetcher.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/RetryingBlockFetcher.BlockFetchStarter.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/ShuffleClient.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/ShuffleIndexInformation.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/ShuffleIndexRecord.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/mesos/RegisterDriver.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/mesos/ShuffleServiceHeartbeat.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.Decoder.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.Type.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/OpenBlocks.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/RegisterExecutor.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/StreamHandle.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/UploadBlock.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/sasl/ShuffleSecretManager.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/mesos/MesosExternalShuffleClient.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/overview-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/sasl/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/sasl/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/sasl/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/mesos/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/mesos/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/mesos/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/mesos/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/mesos/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/org/apache/spark/network/shuffle/protocol/mesos/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/constant-values.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/overview-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/index-all.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/deprecated-list.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/allclasses-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/allclasses-noframe.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/index.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/overview-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/api/help-doc.html...[0m
+[0m[[0minfo[0m] [0m2 warnings[0m
+[0m[[0mdebug[0m] [0mjavadoc returned exit code: 0[0m
+[0m[[0minfo[0m] [0mMain Java API documentation successful.[0m

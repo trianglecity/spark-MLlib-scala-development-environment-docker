@@ -1,0 +1,24 @@
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala:349: method tpe in trait AnnotationApi is deprecated: Use `tree.tpe` instead[0m
+[0m[[33mwarn[0m] [0m      case t if t.typeSymbol.annotations.exists(_.tpe =:= typeOf[SQLUserDefinedType]) =>[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala:567: method tpe in trait AnnotationApi is deprecated: Use `tree.tpe` instead[0m
+[0m[[33mwarn[0m] [0m      case t if t.typeSymbol.annotations.exists(_.tpe =:= typeOf[SQLUserDefinedType]) =>[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala:676: method tpe in trait AnnotationApi is deprecated: Use `tree.tpe` instead[0m
+[0m[[33mwarn[0m] [0m      case t if t.typeSymbol.annotations.exists(_.tpe =:= typeOf[SQLUserDefinedType]) =>[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala:782: method normalize in class TypeApi is deprecated: Use `dealias` or `etaExpand` instead[0m
+[0m[[33mwarn[0m] [0m    tag.in(mirror).tpe.normalize[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala:823: value nme in trait StandardNames is deprecated: Use `termNames` instead[0m
+[0m[[33mwarn[0m] [0m    val constructorSymbol = tpe.member(nme.CONSTRUCTOR)[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala:825: method paramss in trait MethodSymbolApi is deprecated: Use `paramLists` instead[0m
+[0m[[33mwarn[0m] [0m      constructorSymbol.asMethod.paramss[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala:833: method paramss in trait MethodSymbolApi is deprecated: Use `paramLists` instead[0m
+[0m[[33mwarn[0m] [0m        primaryConstructorSymbol.get.asMethod.paramss[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/expressions/codegen/package.scala:54: class AbstractFileClassLoader in package interpreter is deprecated: Use `scala.tools.nsc.util.AbstractFileClassLoader`[0m
+[0m[[33mwarn[0m] [0m          .asInstanceOf[scala.tools.nsc.interpreter.AbstractFileClassLoader][0m
+[0m[[33mwarn[0m] [0m[0m

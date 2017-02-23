@@ -1,0 +1,73 @@
+[0m[[0minfo[0m] [0mMain Java API documentation to /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api...[0m
+[0m[[0mdebug[0m] [0mForking javadoc: /usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc @/tmp/sbt_c794928f/argfile[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/sql/catalyst/expressions/HiveHasher.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/KVIterator.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/Platform.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/UnsafeAlignedOffset.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/array/ByteArrayMethods.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/array/LongArray.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/bitset/BitSetMethods.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/hash/Murmur3_x86_32.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/memory/HeapMemoryAllocator.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/memory/MemoryAllocator.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/memory/MemoryBlock.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/memory/MemoryLocation.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/memory/UnsafeMemoryAllocator.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/types/ByteArray.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/types/CalendarInterval.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/common/unsafe/src/main/java/org/apache/spark/unsafe/types/UTF8String.java...[0m
+[0m[[0minfo[0m] [0mConstructing Javadoc information...[0m
+[0m[[0minfo[0m] [0mStandard Doclet version 1.8.0_121[0m
+[0m[[0minfo[0m] [0mBuilding tree for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/bitset/BitSetMethods.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/types/ByteArray.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/types/CalendarInterval.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/types/UTF8String.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/array/ByteArrayMethods.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/array/LongArray.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/hash/Murmur3_x86_32.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/KVIterator.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/Platform.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/UnsafeAlignedOffset.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/sql/catalyst/expressions/HiveHasher.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/memory/HeapMemoryAllocator.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/memory/MemoryAllocator.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/memory/MemoryBlock.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/memory/MemoryLocation.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/memory/UnsafeMemoryAllocator.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/overview-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/sql/catalyst/expressions/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/sql/catalyst/expressions/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/sql/catalyst/expressions/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/array/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/array/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/array/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/bitset/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/bitset/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/bitset/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/hash/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/hash/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/hash/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/memory/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/memory/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/memory/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/types/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/types/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/org/apache/spark/unsafe/types/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/constant-values.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/serialized-form.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/overview-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/index-all.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/deprecated-list.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/allclasses-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/allclasses-noframe.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/index.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/overview-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/api/help-doc.html...[0m
+[0m[[0mdebug[0m] [0mjavadoc returned exit code: 0[0m
+[0m[[0minfo[0m] [0mMain Java API documentation successful.[0m

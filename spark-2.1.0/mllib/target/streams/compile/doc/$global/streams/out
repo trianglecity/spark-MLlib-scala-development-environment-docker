@@ -1,0 +1,771 @@
+[0m[[0minfo[0m] [0mMain Scala API documentation to /home/spark_MLlib/spark-2.1.0/mllib/target/scala-2.11/api...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.11:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scaladoc with arguments:[0m
+[0m[[0mdebug[0m] [0m	-groups[0m
+[0m[[0mdebug[0m] [0m	-skip-packages[0m
+[0m[[0mdebug[0m] [0m	org.apache.spark.api.python:org.apache.spark.network:org.apache.spark.deploy:org.apache.spark.util.collection[0m
+[0m[[0mdebug[0m] [0m	-doc-title[0m
+[0m[[0mdebug[0m] [0m	Spark 2.1.0 ScalaDoc[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/target/scala-2.11/api[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/core/target/scala-2.11/spark-core_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/spark-launcher_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/common/tags/target/scala-2.11/spark-tags_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/common/network-common/target/scala-2.11/spark-network-common_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/common/network-shuffle/target/scala-2.11/spark-network-shuffle_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/common/unsafe/target/scala-2.11/spark-unsafe_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/streaming/target/scala-2.11/spark-streaming_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/sql/core/target/scala-2.11/spark-sql_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/spark-sketch_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/sql/catalyst/target/scala-2.11/spark-catalyst_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/graphx/target/scala-2.11/spark-graphx_2.11-2.1.0-SNAPSHOT.jar:/home/spark_MLlib/spark-2.1.0/mllib-local/target/scala-2.11/spark-mllib-local_2.11-2.1.0-SNAPSHOT.jar:/root/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.6.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/root/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar:/root/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar:/root/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.0.42.Final.jar:/root/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.5.jar:/root/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar:/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.6.5.jar:/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.6.5.jar:/root/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.6.5.jar:/root/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar:/root/.ivy2/cache/io.dropwizard.metrics/metrics-core/bundles/metrics-core-3.1.2.jar:/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.16.jar:/root/.ivy2/cache/com.twitter/chill_2.11/jars/chill_2.11-0.8.0.jar:/root/.ivy2/cache/com.twitter/chill-java/jars/chill-java-0.8.0.jar:/root/.ivy2/cache/com.esotericsoftware/kryo-shaded/bundles/kryo-shaded-3.0.3.jar:/root/.ivy2/cache/com.esotericsoftware/minlog/bundles/minlog-1.3.0.jar:/root/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.1.jar:/root/.ivy2/cache/org.apache.avro/avro-mapred/jars/avro-mapred-1.7.7-hadoop2.jar:/root/.ivy2/cache/org.apache.avro/avro-ipc/jars/avro-ipc-1.7.7-tests.jar:/root/.ivy2/cache/org.apache.avro/avro-ipc/jars/avro-ipc-1.7.7.jar:/root/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.7.jar:/root/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar:/root/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13.jar:/root/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.1.2.6.jar:/root/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar:/root/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar:/root/.ivy2/cache/org.apache.xbean/xbean-asm5-shaded/bundles/xbean-asm5-shaded-4.4.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-client/jars/hadoop-client-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-annotations/jars/hadoop-annotations-2.2.0.jar:/root/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar:/root/.ivy2/cache/org.apache.commons/commons-math/jars/commons-math-2.1.jar:/root/.ivy2/cache/xmlenc/xmlenc/jars/xmlenc-0.52.jar:/root/.ivy2/cache/commons-httpclient/commons-httpclient/jars/commons-httpclient-3.1.jar:/root/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.1.jar:/root/.ivy2/cache/commons-net/commons-net/jars/commons-net-3.1.jar:/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/root/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.5.jar:/root/.ivy2/cache/commons-configuration/commons-configuration/jars/commons-configuration-1.6.jar:/root/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar:/root/.ivy2/cache/commons-digester/commons-digester/jars/commons-digester-1.8.jar:/root/.ivy2/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.7.0.jar:/root/.ivy2/cache/commons-beanutils/commons-beanutils-core/jars/commons-beanutils-core-1.8.0.jar:/root/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-auth/jars/hadoop-auth-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-hdfs/jars/hadoop-hdfs-2.2.0.jar:/root/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.26.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/jars/hadoop-mapreduce-client-app-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/jars/hadoop-mapreduce-client-common-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/jars/hadoop-yarn-common-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/jars/hadoop-yarn-api-2.2.0.jar:/root/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.16.jar:/root/.ivy2/cache/com.google.inject/guice/jars/guice-3.0.jar:/root/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/root/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/root/.ivy2/cache/org.sonatype.sisu.inject/cglib/jars/cglib-2.2.1-v20090111.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/jars/hadoop-yarn-client-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/jars/hadoop-mapreduce-client-core-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/jars/hadoop-yarn-server-common-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/jars/hadoop-mapreduce-client-shuffle-2.2.0.jar:/root/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/jars/hadoop-mapreduce-client-jobclient-2.2.0.jar:/root/.ivy2/cache/net.java.dev.jets3t/jets3t/jars/jets3t-0.7.1.jar:/root/.ivy2/cache/org.apache.curator/curator-recipes/bundles/curator-recipes-2.4.0.jar:/root/.ivy2/cache/org.apache.curator/curator-framework/bundles/curator-framework-2.4.0.jar:/root/.ivy2/cache/org.apache.curator/curator-client/bundles/curator-client-2.4.0.jar:/root/.ivy2/cache/org.apache.zookeeper/zookeeper/jars/zookeeper-3.4.5.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-plus/jars/jetty-plus-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-webapp/jars/jetty-webapp-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-xml/jars/jetty-xml-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-security/jars/jetty-security-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-9.2.16.v20160414.jar:/root/.ivy2/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-jndi/jars/jetty-jndi-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-continuation/jars/jetty-continuation-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-proxy/jars/jetty-proxy-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-client/jars/jetty-client-9.2.16.v20160414.jar:/root/.ivy2/cache/org.eclipse.jetty/jetty-servlets/jars/jetty-servlets-9.2.16.v20160414.jar:/root/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.4.1.jar:/root/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.16.jar:/root/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.16.jar:/root/.ivy2/cache/com.ning/compress-lzf/bundles/compress-lzf-1.0.3.jar:/root/.ivy2/cache/net.jpountz.lz4/lz4/jars/lz4-1.3.0.jar:/root/.ivy2/cache/org.roaringbitmap/RoaringBitmap/bundles/RoaringBitmap-0.5.11.jar:/root/.ivy2/cache/org.json4s/json4s-jackson_2.11/jars/json4s-jackson_2.11-3.2.11.jar:/root/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.2.11.jar:/root/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.2.11.jar:/root/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar:/root/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.0.jar:/root/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.0.jar:/root/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/root/.ivy2/cache/org.glassfish.jersey.core/jersey-client/jars/jersey-client-2.22.2.jar:/root/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/jars/javax.ws.rs-api-2.0.1.jar:/root/.ivy2/cache/org.glassfish.jersey.core/jersey-common/jars/jersey-common-2.22.2.jar:/root/.ivy2/cache/javax.annotation/javax.annotation-api/jars/javax.annotation-api-1.2.jar:/root/.ivy2/cache/org.glassfish.jersey.bundles.repackaged/jersey-guava/bundles/jersey-guava-2.22.2.jar:/root/.ivy2/cache/org.glassfish.hk2/hk2-api/jars/hk2-api-2.4.0-b34.jar:/root/.ivy2/cache/org.glassfish.hk2/hk2-utils/jars/hk2-utils-2.4.0-b34.jar:/root/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/jars/aopalliance-repackaged-2.4.0-b34.jar:/root/.ivy2/cache/org.glassfish.hk2.external/javax.inject/jars/javax.inject-2.4.0-b34.jar:/root/.ivy2/cache/org.glassfish.hk2/hk2-locator/jars/hk2-locator-2.4.0-b34.jar:/root/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.18.1-GA.jar:/root/.ivy2/cache/org.glassfish.hk2/osgi-resource-locator/jars/osgi-resource-locator-1.0.1.jar:/root/.ivy2/cache/org.glassfish.jersey.core/jersey-server/jars/jersey-server-2.22.2.jar:/root/.ivy2/cache/org.glassfish.jersey.media/jersey-media-jaxb/jars/jersey-media-jaxb-2.22.2.jar:/root/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/root/.ivy2/cache/org.glassfish.jersey.containers/jersey-container-servlet/jars/jersey-container-servlet-2.22.2.jar:/root/.ivy2/cache/org.glassfish.jersey.containers/jersey-container-servlet-core/jars/jersey-container-servlet-core-2.22.2.jar:/root/.ivy2/cache/io.netty/netty/bundles/netty-3.8.0.Final.jar:/root/.ivy2/cache/com.clearspring.analytics/stream/jars/stream-2.7.0.jar:/root/.ivy2/cache/io.dropwizard.metrics/metrics-jvm/bundles/metrics-jvm-3.1.2.jar:/root/.ivy2/cache/io.dropwizard.metrics/metrics-json/bundles/metrics-json-3.1.2.jar:/root/.ivy2/cache/io.dropwizard.metrics/metrics-graphite/bundles/metrics-graphite-3.1.2.jar:/root/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/bundles/jackson-module-scala_2.11-2.6.5.jar:/root/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.6.5.jar:/root/.ivy2/cache/org.apache.ivy/ivy/jars/ivy-2.4.0.jar:/root/.ivy2/cache/oro/oro/jars/oro-2.0.8.jar:/root/.ivy2/cache/net.razorvine/pyrolite/jars/pyrolite-4.13.jar:/root/.ivy2/cache/net.sf.py4j/py4j/jars/py4j-0.10.4.jar:/root/.ivy2/cache/org.apache.commons/commons-crypto/jars/commons-crypto-1.0.0.jar:/root/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/root/.ivy2/cache/org.codehaus.janino/janino/jars/janino-3.0.0.jar:/root/.ivy2/cache/org.codehaus.janino/commons-compiler/jars/commons-compiler-3.0.0.jar:/root/.ivy2/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.5.3.jar:/root/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/root/.ivy2/cache/com.univocity/univocity-parsers/jars/univocity-parsers-2.2.1.jar:/root/.ivy2/cache/org.apache.parquet/parquet-column/jars/parquet-column-1.8.1.jar:/root/.ivy2/cache/org.apache.parquet/parquet-common/jars/parquet-common-1.8.1.jar:/root/.ivy2/cache/org.apache.parquet/parquet-encoding/jars/parquet-encoding-1.8.1.jar:/root/.ivy2/cache/org.apache.parquet/parquet-hadoop/jars/parquet-hadoop-1.8.1.jar:/root/.ivy2/cache/org.apache.parquet/parquet-format/jars/parquet-format-2.3.0-incubating.jar:/root/.ivy2/cache/org.apache.parquet/parquet-jackson/jars/parquet-jackson-1.8.1.jar:/root/.ivy2/cache/org.scalanlp/breeze_2.11/jars/breeze_2.11-0.12.jar:/root/.ivy2/cache/org.scalanlp/breeze-macros_2.11/jars/breeze-macros_2.11-0.12.jar:/root/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar:/root/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/jars/arpack_combined_all-0.1.jar:/root/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar:/root/.ivy2/cache/com.github.rwl/jtransforms/jars/jtransforms-2.4.0.jar:/root/.ivy2/cache/org.spire-math/spire_2.11/jars/spire_2.11-0.7.4.jar:/root/.ivy2/cache/org.spire-math/spire-macros_2.11/jars/spire-macros_2.11-0.7.4.jar:/root/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.0.0.jar:/root/.ivy2/cache/org.jpmml/pmml-model/jars/pmml-model-1.2.15.jar:/root/.ivy2/cache/org.jpmml/pmml-schema/jars/pmml-schema-1.2.15.jar[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Estimator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Model.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Pipeline.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Predictor.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Transformer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/ann/BreezeUtil.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/ann/Layer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/ann/LossFunction.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/attribute/AttributeGroup.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/attribute/AttributeKeys.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/attribute/AttributeType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/attribute/attributes.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/attribute/package-info.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/attribute/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/Classifier.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/DecisionTreeClassifier.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/GBTClassifier.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/LogisticRegression.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/MultilayerPerceptronClassifier.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/NaiveBayes.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/OneVsRest.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/ProbabilisticClassifier.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/RandomForestClassifier.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/clustering/BisectingKMeans.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/clustering/ClusteringSummary.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/clustering/GaussianMixture.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/clustering/KMeans.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/clustering/LDA.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/evaluation/BinaryClassificationEvaluator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/evaluation/Evaluator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/evaluation/MulticlassClassificationEvaluator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/evaluation/RegressionEvaluator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/Binarizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/BucketedRandomProjectionLSH.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/Bucketizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/ChiSqSelector.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/CountVectorizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/DCT.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/ElementwiseProduct.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/HashingTF.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/IDF.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/Instance.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/Interaction.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/LSH.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/LabeledPoint.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/MaxAbsScaler.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/MinHashLSH.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/MinMaxScaler.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/NGram.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/Normalizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/OneHotEncoder.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/PCA.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/PolynomialExpansion.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/QuantileDiscretizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/RFormula.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/RFormulaParser.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/SQLTransformer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/StandardScaler.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/StopWordsRemover.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/StringIndexer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/Tokenizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/VectorAssembler.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/VectorIndexer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/VectorSlicer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/Word2Vec.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/package-info.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/linalg/JsonVectorConverter.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/linalg/MatrixUDT.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/linalg/SQLDataTypes.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/linalg/VectorUDT.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/optim/IterativelyReweightedLeastSquares.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/optim/NormalEquationSolver.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/optim/WeightedLeastSquares.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/package-info.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/param/params.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/param/shared/SharedParamsCodeGen.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/param/shared/sharedParams.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/python/MLSerDe.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/AFTSurvivalRegressionWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/ALSWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/GBTClassificationWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/GBTRegressionWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/GaussianMixtureWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/GeneralizedLinearRegressionWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/IsotonicRegressionWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/KMeansWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/KSTestWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/LDAWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/LogisticRegressionWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/MultilayerPerceptronClassifierWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/NaiveBayesWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/RWrapperUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/RWrappers.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/RandomForestClassificationWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/r/RandomForestRegressionWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/recommendation/ALS.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/AFTSurvivalRegression.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/DecisionTreeRegressor.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/GBTRegressor.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/GeneralizedLinearRegression.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/IsotonicRegression.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/LinearRegression.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/RandomForestRegressor.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/Regressor.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/source/libsvm/LibSVMDataSource.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/source/libsvm/LibSVMRelation.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/Node.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/Split.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/impl/BaggedPoint.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/impl/DTStatsAggregator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/impl/DecisionTreeMetadata.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/impl/GradientBoostedTrees.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/impl/NodeIdCache.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/impl/RandomForest.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/impl/TimeTracker.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/impl/TreePoint.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/treeModels.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/treeParams.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tuning/CrossValidator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tuning/ParamGridBuilder.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tuning/TrainValidationSplit.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tuning/ValidatorParams.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/Identifiable.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/Instrumentation.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/MetadataUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/ReadWrite.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/SchemaUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/stopwatches.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/JavaPackage.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/api/python/FPGrowthModelWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/api/python/GaussianMixtureModelWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/api/python/LDAModelWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/api/python/MatrixFactorizationModelWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/api/python/PowerIterationClusteringModelWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/api/python/PrefixSpanModelWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/api/python/PythonMLLibAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/api/python/Word2VecModelWrapper.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/api/python/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/classification/ClassificationModel.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/classification/LogisticRegression.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/classification/NaiveBayes.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/classification/SVM.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/classification/StreamingLogisticRegressionWithSGD.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/classification/impl/GLMClassificationModel.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/BisectingKMeans.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/BisectingKMeansModel.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/GaussianMixture.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/GaussianMixtureModel.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/KMeans.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/KMeansModel.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDA.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDAModel.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDAOptimizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDAUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LocalKMeans.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/PowerIterationClustering.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/StreamingKMeans.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/evaluation/AreaUnderCurve.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/evaluation/BinaryClassificationMetrics.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/evaluation/MulticlassMetrics.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/evaluation/MultilabelMetrics.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/evaluation/RankingMetrics.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/evaluation/RegressionMetrics.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/evaluation/binary/BinaryClassificationMetricComputers.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/evaluation/binary/BinaryConfusionMatrix.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/evaluation/binary/BinaryLabelCounter.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/feature/ChiSqSelector.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/feature/ElementwiseProduct.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/feature/HashingTF.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/feature/IDF.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/feature/Normalizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/feature/PCA.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/feature/StandardScaler.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/feature/VectorTransformer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/feature/Word2Vec.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/fpm/AssociationRules.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/fpm/FPGrowth.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/fpm/FPTree.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/fpm/LocalPrefixSpan.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/fpm/PrefixSpan.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/impl/PeriodicCheckpointer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/impl/PeriodicGraphCheckpointer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/impl/PeriodicRDDCheckpointer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/BLAS.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/CholeskyDecomposition.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/EigenValueDecomposition.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/Matrices.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/SingularValueDecomposition.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/Vectors.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/BlockMatrix.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/CoordinateMatrix.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/DistributedMatrix.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/IndexedRowMatrix.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/distributed/RowMatrix.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/Gradient.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/GradientDescent.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/LBFGS.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/NNLS.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/Optimizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/Updater.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/package-info.java[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/pmml/PMMLExportable.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/pmml/export/BinaryClassificationPMMLModelExport.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/pmml/export/GeneralizedLinearPMMLModelExport.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/pmml/export/KMeansPMMLModelExport.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/pmml/export/PMMLModelExport.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/pmml/export/PMMLModelExportFactory.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomDataGenerator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/rdd/MLPairRDDFunctions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/rdd/RDDFunctions.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/rdd/RandomRDD.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/rdd/SlidingRDD.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/recommendation/ALS.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/recommendation/MatrixFactorizationModel.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/regression/GeneralizedLinearAlgorithm.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/regression/IsotonicRegression.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/regression/LabeledPoint.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/regression/Lasso.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/regression/LinearRegression.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/regression/RegressionModel.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/regression/RidgeRegression.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/regression/StreamingLinearAlgorithm.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/regression/StreamingLinearRegressionWithSGD.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/regression/impl/GLMRegressionModel.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/KernelDensity.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateOnlineSummarizer.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/MultivariateStatisticalSummary.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/Statistics.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/correlation/Correlation.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/correlation/PearsonCorrelation.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/correlation/SpearmanCorrelation.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/distribution/MultivariateGaussian.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/test/ChiSqTest.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/test/KolmogorovSmirnovTest.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/test/StreamingTest.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/test/StreamingTestMethod.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/test/TestResult.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/DecisionTree.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/GradientBoostedTrees.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/RandomForest.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/configuration/Algo.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/configuration/BoostingStrategy.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/configuration/EnsembleCombiningStrategy.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/configuration/FeatureType.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/configuration/QuantileStrategy.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/configuration/Strategy.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/impurity/Entropy.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/impurity/Gini.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/impurity/Impurities.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/impurity/Impurity.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/impurity/Variance.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/loss/AbsoluteError.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/loss/LogLoss.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/loss/Loss.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/loss/Losses.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/loss/SquaredError.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/model/DecisionTreeModel.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/model/InformationGainStats.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/model/Node.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/model/Predict.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/model/Split.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/model/treeEnsembleModels.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/package.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/DataValidators.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/KMeansDataGenerator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/LinearDataGenerator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/LogisticRegressionDataGenerator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/MFDataGenerator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/MLUtils.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/NumericParser.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/SVMDataGenerator.scala[0m
+[0m[[0mdebug[0m] [0m	/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/modelSaveLoad.scala[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/impl/RandomForest.scala:406: discarding unmoored doc comment[0m
+[0m[[33mwarn[0m] [0m    /**[0m
+[0m[[33mwarn[0m] [0m    ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/tree/impl/RandomForest.scala:437: discarding unmoored doc comment[0m
+[0m[[33mwarn[0m] [0m    /**[0m
+[0m[[33mwarn[0m] [0m    ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/Classifier.scala:69: Could not find any member to link for "SparkException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/Classifier.scala:91: Could not find any member to link for "IllegalArgumentException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/LogisticRegression.scala:101: Could not find any member to link for "IllegalArgumentException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/Gradient.scala:81: Variable w undefined in comment for class LogisticGradient in class LogisticGradient[0m
+[0m[[33mwarn[0m] [0m * The model weights $w = (w_1, w_2, ..., w_{K-1})^T$ becomes a matrix which has dimension of[0m
+[0m[[33mwarn[0m] [0m                      ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/Gradient.scala:96: Variable i undefined in comment for class LogisticGradient in class LogisticGradient[0m
+[0m[[33mwarn[0m] [0m * where $\alpha(i) = 1$ if $i \ne 0$, and[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/Gradient.scala:97: Variable i undefined in comment for class LogisticGradient in class LogisticGradient[0m
+[0m[[33mwarn[0m] [0m *       $\alpha(i) = 0$ if $i == 0$,[0m
+[0m[[33mwarn[0m] [0m                             ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/Gradient.scala:98: Variable margins undefined in comment for class LogisticGradient in class LogisticGradient[0m
+[0m[[33mwarn[0m] [0m *       $margins_i = x w_i$.[0m
+[0m[[33mwarn[0m] [0m          ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/Gradient.scala:113: Variable i undefined in comment for class LogisticGradient in class LogisticGradient[0m
+[0m[[33mwarn[0m] [0m * where $\delta_{i, j} = 1$ if $i == j$,[0m
+[0m[[33mwarn[0m] [0m                                 ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/Gradient.scala:114: Variable i undefined in comment for class LogisticGradient in class LogisticGradient[0m
+[0m[[33mwarn[0m] [0m *       $\delta_{i, j} = 0$ if $i != j$, and[0m
+[0m[[33mwarn[0m] [0m                                 ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/MinMaxScaler.scala:87: Variable E undefined in comment for class MinMaxScaler in class MinMaxScaler[0m
+[0m[[33mwarn[0m] [0m * For the case $E_{max} == E_{min}$, $Rescaled(e_i) = 0.5 * (max + min)$.[0m
+[0m[[33mwarn[0m] [0m                 ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/MinMaxScaler.scala:87: Variable Rescaled undefined in comment for class MinMaxScaler in class MinMaxScaler[0m
+[0m[[33mwarn[0m] [0m * For the case $E_{max} == E_{min}$, $Rescaled(e_i) = 0.5 * (max + min)$.[0m
+[0m[[33mwarn[0m] [0m                                       ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/MLUtils.scala:413: Could not find any member to link for "org.apache.spark.ml.linalg.Matrix".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/MLUtils.scala:363: Could not find any member to link for "org.apache.spark.ml.linalg.Matrix".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/MLUtils.scala:311: Could not find any member to link for "org.apache.spark.ml.linalg.Vector".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/MLUtils.scala:259: Could not find any member to link for "org.apache.spark.ml.linalg.Vector".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/util/MLUtils.scala:148: The link target "org.apache.spark.mllib.util.MLUtils#loadLibSVMFile" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(sc: org.apache.spark.SparkContext,path: String): org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint] in object MLUtils [chosen][0m
+[0m[[33mwarn[0m] [0m(sc: org.apache.spark.SparkContext,path: String,numFeatures: Int): org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint] in object MLUtils[0m
+[0m[[33mwarn[0m] [0m(sc: org.apache.spark.SparkContext,path: String,numFeatures: Int,minPartitions: Int): org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint] in object MLUtils[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0m[0m
+[0m[[33mwarn[0m] [0mQuick crash course on using Scaladoc links[0m
+[0m[[33mwarn[0m] [0m==========================================[0m
+[0m[[33mwarn[0m] [0mDisambiguating terms and types: Prefix terms with '$' and types with '!' in case both names are in use:[0m
+[0m[[33mwarn[0m] [0m - [[scala.collection.immutable.List!.apply class List's apply method]] and[0m
+[0m[[33mwarn[0m] [0m - [[scala.collection.immutable.List$.apply object List's apply method]][0m
+[0m[[33mwarn[0m] [0mDisambiguating overloaded members: If a term is overloaded, you can indicate the first part of its signature followed by *:[0m
+[0m[[33mwarn[0m] [0m - [[[scala.collection.immutable.List$.fill[A](Int)(⇒A):List[A]* Fill with a single parameter]]][0m
+[0m[[33mwarn[0m] [0m - [[[scala.collection.immutable.List$.fill[A](Int,Int)(⇒A):List[List[A]]* Fill with a two parameters]]][0m
+[0m[[33mwarn[0m] [0mNotes:[0m
+[0m[[33mwarn[0m] [0m - you can use any number of matching square brackets to avoid interference with the signature[0m
+[0m[[33mwarn[0m] [0m - you can use \\. to escape dots in prefixes (don't forget to use * at the end to match the signature!)[0m
+[0m[[33mwarn[0m] [0m - you can use \\# to escape hashes, otherwise they will be considered as delimiters, like dots.[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/model/treeEnsembleModels.scala:343: Could not find any member to link for "org.apache.spark.mllib.tree.model.TreeEnsembleModel#predict".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/configuration/Strategy.scala:28: Could not find any member to link for "org.apache.spark.SparkContext".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/RandomForest.scala:174: The link target "org.apache.spark.mllib.tree.RandomForest$#trainClassifier" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: java.util.Map[Integer,Integer],numTrees: Int,featureSubsetStrategy: String,impurity: String,maxDepth: Int,maxBins: Int,seed: Int): org.apache.spark.mllib.tree.model.RandomForestModel in object RandomForest [chosen][0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: Map[Int,Int],numTrees: Int,featureSubsetStrategy: String,impurity: String,maxDepth: Int,maxBins: Int,seed: Int): org.apache.spark.mllib.tree.model.RandomForestModel in object RandomForest[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],strategy: org.apache.spark.mllib.tree.configuration.Strategy,numTrees: Int,featureSubsetStrategy: String,seed: Int): org.apache.spark.mllib.tree.model.RandomForestModel in object RandomForest[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/RandomForest.scala:261: The link target "org.apache.spark.mllib.tree.RandomForest$#trainRegressor" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.regression.LabeledPoint],categoricalFeaturesInfo: java.util.Map[Integer,Integer],numTrees: Int,featureSubsetStrategy: String,impurity: String,maxDepth: Int,maxBins: Int,seed: Int): org.apache.spark.mllib.tree.model.RandomForestModel in object RandomForest [chosen][0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],categoricalFeaturesInfo: Map[Int,Int],numTrees: Int,featureSubsetStrategy: String,impurity: String,maxDepth: Int,maxBins: Int,seed: Int): org.apache.spark.mllib.tree.model.RandomForestModel in object RandomForest[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],strategy: org.apache.spark.mllib.tree.configuration.Strategy,numTrees: Int,featureSubsetStrategy: String,seed: Int): org.apache.spark.mllib.tree.model.RandomForestModel in object RandomForest[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/GradientBoostedTrees.scala:138: The link target "org.apache.spark.mllib.tree.GradientBoostedTrees$#train" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.regression.LabeledPoint],boostingStrategy: org.apache.spark.mllib.tree.configuration.BoostingStrategy): org.apache.spark.mllib.tree.model.GradientBoostedTreesModel in object GradientBoostedTrees [chosen][0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],boostingStrategy: org.apache.spark.mllib.tree.configuration.BoostingStrategy): org.apache.spark.mllib.tree.model.GradientBoostedTreesModel in object GradientBoostedTrees[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/DecisionTree.scala:151: The link target "org.apache.spark.mllib.tree.DecisionTree$#trainClassifier" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: java.util.Map[Integer,Integer],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree [chosen][0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: Map[Int,Int],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/DecisionTree.scala:122: The link target "org.apache.spark.mllib.tree.DecisionTree$#trainClassifier" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: java.util.Map[Integer,Integer],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree [chosen][0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: Map[Int,Int],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/DecisionTree.scala:95: The link target "org.apache.spark.mllib.tree.DecisionTree$#trainClassifier" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: java.util.Map[Integer,Integer],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree [chosen][0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: Map[Int,Int],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/DecisionTree.scala:74: The link target "org.apache.spark.mllib.tree.DecisionTree$#trainClassifier" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: java.util.Map[Integer,Integer],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree [chosen][0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: Map[Int,Int],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/DecisionTree.scala:220: The link target "org.apache.spark.mllib.tree.DecisionTree$#trainClassifier" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: java.util.Map[Integer,Integer],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree [chosen][0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],numClasses: Int,categoricalFeaturesInfo: Map[Int,Int],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/tree/DecisionTree.scala:264: The link target "org.apache.spark.mllib.tree.DecisionTree$#trainRegressor" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.regression.LabeledPoint],categoricalFeaturesInfo: java.util.Map[Integer,Integer],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree [chosen][0m
+[0m[[33mwarn[0m] [0m(input: org.apache.spark.rdd.RDD[org.apache.spark.mllib.regression.LabeledPoint],categoricalFeaturesInfo: Map[Int,Int],impurity: String,maxDepth: Int,maxBins: Int): org.apache.spark.mllib.tree.model.DecisionTreeModel in object DecisionTree[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/stat/test/StreamingTest.scala:44: Could not find any member to link for "org.apache.spark.rdd.RDD".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/recommendation/ALS.scala:219: Could not find any member to link for "org.apache.spark.SparkContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:239: The link target "RandomRDDs#exponentialJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:227: The link target "RandomRDDs#exponentialJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:750: The link target "RandomRDDs#exponentialJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:737: The link target "RandomRDDs#exponentialJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:298: The link target "RandomRDDs#gammaJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:285: The link target "RandomRDDs#gammaJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:819: The link target "RandomRDDs#gammaJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:805: The link target "RandomRDDs#gammaJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,shape: Double,scale: Double,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:361: The link target "RandomRDDs#logNormalJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:348: The link target "RandomRDDs#logNormalJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:621: The link target "RandomRDDs#logNormalJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:607: The link target "RandomRDDs#logNormalJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,std: Double,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:129: The link target "RandomRDDs#normalJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:121: The link target "RandomRDDs#normalJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:554: The link target "RandomRDDs#normalJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:542: The link target "RandomRDDs#normalJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:184: The link target "RandomRDDs#poissonJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:172: The link target "RandomRDDs#poissonJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:686: The link target "RandomRDDs#poissonJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:673: The link target "RandomRDDs#poissonJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,mean: Double,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:434: The link target "RandomRDDs#randomJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m[T](jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[T],size: Long): org.apache.spark.api.java.JavaRDD[T] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m[T](jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[T],size: Long,numPartitions: Int): org.apache.spark.api.java.JavaRDD[T] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m[T](jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[T],size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[T] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:420: The link target "RandomRDDs#randomJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m[T](jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[T],size: Long): org.apache.spark.api.java.JavaRDD[T] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m[T](jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[T],size: Long,numPartitions: Int): org.apache.spark.api.java.JavaRDD[T] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m[T](jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[T],size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[T] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:889: The link target "RandomRDDs#randomJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[Double],numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[Double],numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[Double],numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:874: The link target "RandomRDDs#randomJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[Double],numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[Double],numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,generator: org.apache.spark.mllib.random.RandomDataGenerator[Double],numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:79: The link target "RandomRDDs#uniformJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:71: The link target "RandomRDDs#uniformJavaRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long,numPartitions: Int): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,size: Long,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaDoubleRDD in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:496: The link target "RandomRDDs#uniformJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/random/RandomRDDs.scala:484: The link target "RandomRDDs#uniformJavaVectorRDD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs [chosen][0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int,numPartitions: Int): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m(jsc: org.apache.spark.api.java.JavaSparkContext,numRows: Long,numCols: Int,numPartitions: Int,seed: Long): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.linalg.Vector] in object RandomRDDs[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/optimization/GradientDescent.scala:281: The link target "runMiniBatchSGD" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(data: org.apache.spark.rdd.RDD[(Double, org.apache.spark.mllib.linalg.Vector)],gradient: org.apache.spark.mllib.optimization.Gradient,updater: org.apache.spark.mllib.optimization.Updater,stepSize: Double,numIterations: Int,regParam: Double,miniBatchFraction: Double,initialWeights: org.apache.spark.mllib.linalg.Vector): (org.apache.spark.mllib.linalg.Vector, Array[Double]) in object GradientDescent [chosen][0m
+[0m[[33mwarn[0m] [0m(data: org.apache.spark.rdd.RDD[(Double, org.apache.spark.mllib.linalg.Vector)],gradient: org.apache.spark.mllib.optimization.Gradient,updater: org.apache.spark.mllib.optimization.Updater,stepSize: Double,numIterations: Int,regParam: Double,miniBatchFraction: Double,initialWeights: org.apache.spark.mllib.linalg.Vector,convergenceTol: Double): (org.apache.spark.mllib.linalg.Vector, Array[Double]) in object GradientDescent[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/Vectors.scala:195: Could not find any member to link for "org.apache.spark.sql.Dataset".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/linalg/Vectors.scala:273: Could not find any member to link for "scala.collection.immutable.Vector".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/fpm/FPGrowth.scala:221: The link target "run" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m[Item, Basket <: Iterable[Item]](data: org.apache.spark.api.java.JavaRDD[Basket]): org.apache.spark.mllib.fpm.FPGrowthModel[Item] in class FPGrowth [chosen][0m
+[0m[[33mwarn[0m] [0m[Item](data: org.apache.spark.rdd.RDD[Array[Item]])(implicit evidence$3: scala.reflect.ClassTag[Item]): org.apache.spark.mllib.fpm.FPGrowthModel[Item] in class FPGrowth[0m
+[0m[[33mwarn[0m] [0m  /** Java-friendly version of [[run]]. */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/fpm/FPGrowth.scala:54: Could not find any member to link for "Item".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/fpm/AssociationRules.scala:83: The link target "run" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m[Item](freqItemsets: org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.fpm.FPGrowth.FreqItemset[Item]]): org.apache.spark.api.java.JavaRDD[org.apache.spark.mllib.fpm.AssociationRules.Rule[Item]] in class AssociationRules [chosen][0m
+[0m[[33mwarn[0m] [0m[Item](freqItemsets: org.apache.spark.rdd.RDD[org.apache.spark.mllib.fpm.FPGrowth.FreqItemset[Item]])(implicit evidence$1: scala.reflect.ClassTag[Item]): org.apache.spark.rdd.RDD[org.apache.spark.mllib.fpm.AssociationRules.Rule[Item]] in class AssociationRules[0m
+[0m[[33mwarn[0m] [0m  /** Java-friendly version of [[run]]. */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/fpm/AssociationRules.scala:56: Could not find any member to link for "minConfidence".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDAModel.scala:239: The link target "logLikelihood" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(documents: org.apache.spark.api.java.JavaPairRDD[Long,org.apache.spark.mllib.linalg.Vector]): Double in class LocalLDAModel [chosen][0m
+[0m[[33mwarn[0m] [0m(documents: org.apache.spark.rdd.RDD[(Long, org.apache.spark.mllib.linalg.Vector)]): Double in class LocalLDAModel[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDAModel.scala:262: The link target "logPerplexity" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(documents: org.apache.spark.api.java.JavaPairRDD[Long,org.apache.spark.mllib.linalg.Vector]): Double in class LocalLDAModel [chosen][0m
+[0m[[33mwarn[0m] [0m(documents: org.apache.spark.rdd.RDD[(Long, org.apache.spark.mllib.linalg.Vector)]): Double in class LocalLDAModel[0m
+[0m[[33mwarn[0m] [0m  /** Java-friendly version of [[logPerplexity]] */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDAModel.scala:416: The link target "topicDistributions" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(documents: org.apache.spark.api.java.JavaPairRDD[Long,org.apache.spark.mllib.linalg.Vector]): org.apache.spark.api.java.JavaPairRDD[Long,org.apache.spark.mllib.linalg.Vector] in class LocalLDAModel [chosen][0m
+[0m[[33mwarn[0m] [0m(documents: org.apache.spark.rdd.RDD[(Long, org.apache.spark.mllib.linalg.Vector)]): org.apache.spark.rdd.RDD[(Long, org.apache.spark.mllib.linalg.Vector)] in class LocalLDAModel[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDA.scala:89: Could not find any member to link for "Double".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDA.scala:263: Could not find any member to link for "org.apache.spark.SparkContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDA.scala:139: Could not find any member to link for "Double".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/mllib/clustering/LDA.scala:107: Could not find any member to link for "docConcentration".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Pipeline.scala:84: The link target "Pipeline#fit" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(dataset: org.apache.spark.sql.Dataset[_]): org.apache.spark.ml.PipelineModel in class Pipeline [chosen][0m
+[0m[[33mwarn[0m] [0m(dataset: org.apache.spark.sql.Dataset[_],paramMaps: Array[org.apache.spark.ml.param.ParamMap]): Seq[M] in class Pipeline[0m
+[0m[[33mwarn[0m] [0m(dataset: org.apache.spark.sql.Dataset[_],paramMap: org.apache.spark.ml.param.ParamMap): M in class Pipeline[0m
+[0m[[33mwarn[0m] [0m(dataset: org.apache.spark.sql.Dataset[_],firstParamPair: org.apache.spark.ml.param.ParamPair[_],otherParamPairs: org.apache.spark.ml.param.ParamPair[_]*): M in class Pipeline[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/attribute/package.scala:23: Could not find any member to link for "DataFrame".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/feature/package.scala:23: Could not find any member to link for "DataFrame".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/ReadWrite.scala:219: Could not find any member to link for "org.apache.spark.sql.Dataset".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/ReadWrite.scala:157: Could not find any member to link for "org.apache.spark.sql.Dataset".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/ReadWrite.scala:114: Could not find any member to link for "save()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/ReadWrite.scala:203: Could not find any member to link for "MLReader".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/param/params.scala:655: Could not find any member to link for "getOrDefault()".[0m
+[0m[[33mwarn[0m] [0m  /** An alias for [[getOrDefault()]]. */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/param/params.scala:748: Could not find any member to link for "defaultParamMap".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/param/params.scala:730: The link target "extractParamMap" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(): org.apache.spark.ml.param.ParamMap in trait Params [chosen][0m
+[0m[[33mwarn[0m] [0m(extra: org.apache.spark.ml.param.ParamMap): org.apache.spark.ml.param.ParamMap in trait Params[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/util/ReadWrite.scala:143: Could not find any member to link for "MLWriter".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/Regressor.scala:40: Could not find any member to link for "Regressor".[0m
+[0m[[33mwarn[0m] [0m/**[0m
+[0m[[33mwarn[0m] [0m^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Predictor.scala:198: Could not find any member to link for "transform()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Predictor.scala:159: Could not find any member to link for "validateAndTransformSchema()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Predictor.scala:173: Could not find any member to link for "Double".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/RandomForestRegressor.scala:80: Could not find any member to link for "org.apache.spark.SparkContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Predictor.scala:101: Could not find any member to link for "fit()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/GBTRegressor.scala:93: Could not find any member to link for "org.apache.spark.SparkContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/regression/DecisionTreeRegressor.scala:78: Could not find any member to link for "org.apache.spark.SparkContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/param/params.scala:504: Could not find any member to link for "java.util.List".[0m
+[0m[[33mwarn[0m] [0m  /** Creates a param pair with a [[java.util.List]] of values (for Java and Python). */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/param/params.scala:474: Could not find any member to link for "java.util.List".[0m
+[0m[[33mwarn[0m] [0m  /** Creates a param pair with a [[java.util.List]] of values (for Java and Python). */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/param/params.scala:449: Could not find any member to link for "java.util.List".[0m
+[0m[[33mwarn[0m] [0m  /** Creates a param pair with a [[java.util.List]] of values (for Java and Python). */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/Classifier.scala:193: Could not find any member to link for "transform()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/ProbabilisticClassifier.scala:181: Could not find any member to link for "transform()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/Classifier.scala:204: Could not find any member to link for "transform()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/ProbabilisticClassifier.scala:167: Could not find any member to link for "raw2probabilityInPlace()".[0m
+[0m[[33mwarn[0m] [0m  /** Non-in-place version of [[raw2probabilityInPlace()]] */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/ProbabilisticClassifier.scala:156: Could not find any member to link for "transform()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/ProbabilisticClassifier.scala:93: Could not find any member to link for "Double".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/RandomForestClassifier.scala:81: Could not find any member to link for "org.apache.spark.SparkContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/MultilayerPerceptronClassifier.scala:312: Could not find any member to link for "transform()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/MultilayerPerceptronClassifier.scala:226: Could not find any member to link for "fit()".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/LogisticRegression.scala:161: Could not find any member to link for "IllegalArgumentException".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/GBTClassifier.scala:96: Could not find any member to link for "org.apache.spark.SparkContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/DecisionTreeClassifier.scala:79: Could not find any member to link for "org.apache.spark.SparkContext".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/classification/Classifier.scala:150: Could not find any member to link for "Double".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/attribute/attributes.scala:147: Could not find any member to link for "StructField".[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/Pipeline.scala:122: The link target "Estimator#fit" is ambiguous. Several members fit the target:[0m
+[0m[[33mwarn[0m] [0m(dataset: org.apache.spark.sql.Dataset[_],paramMaps: Array[org.apache.spark.ml.param.ParamMap]): Seq[M] in class Estimator [chosen][0m
+[0m[[33mwarn[0m] [0m(dataset: org.apache.spark.sql.Dataset[_],paramMap: org.apache.spark.ml.param.ParamMap): M in class Estimator[0m
+[0m[[33mwarn[0m] [0m(dataset: org.apache.spark.sql.Dataset[_],firstParamPair: org.apache.spark.ml.param.ParamPair[_],otherParamPairs: org.apache.spark.ml.param.ParamPair[_]*): M in class Estimator[0m
+[0m[[33mwarn[0m] [0m(dataset: org.apache.spark.sql.Dataset[_]): M in class Estimator[0m
+[0m[[33mwarn[0m] [0m  /**[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/linalg/SQLDataTypes.scala:34: Could not find any member to link for "Matrix".[0m
+[0m[[33mwarn[0m] [0m  /** Data type for [[Matrix]]. */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m/home/spark_MLlib/spark-2.1.0/mllib/src/main/scala/org/apache/spark/ml/linalg/SQLDataTypes.scala:31: Could not find any member to link for "Vector".[0m
+[0m[[33mwarn[0m] [0m  /** Data type for [[Vector]]. */[0m
+[0m[[33mwarn[0m] [0m  ^[0m
+[0m[[33mwarn[0m] [0m112 warnings found[0m
+[0m[[0minfo[0m] [0mMain Scala API documentation successful.[0m

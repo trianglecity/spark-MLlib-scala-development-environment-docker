@@ -1,0 +1,39 @@
+[0m[[0minfo[0m] [0mMain Java API documentation to /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api...[0m
+[0m[[0mdebug[0m] [0mForking javadoc: /usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc @/tmp/sbt_4229e386/argfile[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/AbstractCommandBuilder.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/ChildProcAppHandle.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/CommandBuilderUtils.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/LauncherConnection.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/LauncherProtocol.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/LauncherServer.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/Main.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/NamedThreadFactory.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/OutputRedirector.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/SparkAppHandle.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/SparkClassCommandBuilder.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/SparkLauncher.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/SparkSubmitCommandBuilder.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/SparkSubmitOptionParser.java...[0m
+[0m[[0minfo[0m] [0mLoading source file /home/spark_MLlib/spark-2.1.0/launcher/src/main/java/org/apache/spark/launcher/package-info.java...[0m
+[0m[[0minfo[0m] [0mConstructing Javadoc information...[0m
+[0m[[0minfo[0m] [0mStandard Doclet version 1.8.0_121[0m
+[0m[[0minfo[0m] [0mBuilding tree for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/org/apache/spark/launcher/SparkAppHandle.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/org/apache/spark/launcher/SparkAppHandle.Listener.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/org/apache/spark/launcher/SparkAppHandle.State.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/org/apache/spark/launcher/SparkLauncher.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/org/apache/spark/launcher/package-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/org/apache/spark/launcher/package-summary.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/org/apache/spark/launcher/package-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/constant-values.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all the packages and classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/overview-tree.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/index-all.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/deprecated-list.html...[0m
+[0m[[0minfo[0m] [0mBuilding index for all classes...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/allclasses-frame.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/allclasses-noframe.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/index.html...[0m
+[0m[[0minfo[0m] [0mGenerating /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/api/help-doc.html...[0m
+[0m[[0mdebug[0m] [0mjavadoc returned exit code: 0[0m
+[0m[[0minfo[0m] [0mMain Java API documentation successful.[0m

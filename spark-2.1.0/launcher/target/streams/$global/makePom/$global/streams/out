@@ -1,0 +1,4 @@
+[0m[[33mwarn[0m] [0mSkipped generating '<exclusion/>' for com.sun.jersey#*. Dependency exclusion should have both 'org' and 'module' to comply with Maven POM's schema.[0m
+[0m[[33mwarn[0m] [0mSkipped generating '<exclusion/>' for com.sun.jersey.jersey-test-framework#*. Dependency exclusion should have both 'org' and 'module' to comply with Maven POM's schema.[0m
+[0m[[33mwarn[0m] [0mSkipped generating '<exclusion/>' for com.sun.jersey.contribs#*. Dependency exclusion should have both 'org' and 'module' to comply with Maven POM's schema.[0m
+[0m[[0minfo[0m] [0mWrote /home/spark_MLlib/spark-2.1.0/launcher/target/scala-2.11/spark-launcher_2.11-2.1.0-SNAPSHOT.pom[0m

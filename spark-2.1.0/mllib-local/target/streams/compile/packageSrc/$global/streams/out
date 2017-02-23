@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/mllib-local/target/scala-2.11/spark-mllib-local_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/ml/linalg/Vectors.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/mllib-local/src/main/scala/org/apache/spark/ml/linalg/Vectors.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/ml/impl/Utils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/mllib-local/src/main/scala/org/apache/spark/ml/impl/Utils.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/ml/linalg/Matrices.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/mllib-local/src/main/scala/org/apache/spark/ml/linalg/Matrices.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/ml/linalg/BLAS.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/mllib-local/src/main/scala/org/apache/spark/ml/linalg/BLAS.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/ml/stat/distribution/MultivariateGaussian.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/mllib-local/src/main/scala/org/apache/spark/ml/stat/distribution/MultivariateGaussian.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

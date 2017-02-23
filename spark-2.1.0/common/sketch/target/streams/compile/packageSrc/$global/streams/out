@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/common/sketch/target/scala-2.11/spark-sketch_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/util/sketch/CountMinSketch.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/CountMinSketch.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/util/sketch/Murmur3_x86_32.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/Murmur3_x86_32.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/util/sketch/Utils.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/Utils.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/util/sketch/BloomFilter.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/BloomFilter.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/util/sketch/BloomFilterImpl.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/BloomFilterImpl.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/util/sketch/BitArray.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/BitArray.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/util/sketch/Platform.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/Platform.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/util/sketch/CountMinSketchImpl.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/CountMinSketchImpl.java[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/util/sketch/IncompatibleMergeException.java[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/common/sketch/src/main/java/org/apache/spark/util/sketch/IncompatibleMergeException.java[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/spark-2.1.0/external/flume-sink/target/scala-2.11/spark-streaming-flume-sink_2.11-2.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/sink/SparkSinkUtils.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume-sink/src/main/scala/org/apache/spark/streaming/flume/sink/SparkSinkUtils.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/sink/SparkSink.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume-sink/src/main/scala/org/apache/spark/streaming/flume/sink/SparkSink.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/sink/SparkAvroCallbackHandler.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume-sink/src/main/scala/org/apache/spark/streaming/flume/sink/SparkAvroCallbackHandler.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/sink/TransactionProcessor.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume-sink/src/main/scala/org/apache/spark/streaming/flume/sink/TransactionProcessor.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/sink/Logging.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume-sink/src/main/scala/org/apache/spark/streaming/flume/sink/Logging.scala[0m
+[0m[[0mdebug[0m] [0m	org/apache/spark/streaming/flume/sink/SparkSinkThreadFactory.scala[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/spark-2.1.0/external/flume-sink/src/main/scala/org/apache/spark/streaming/flume/sink/SparkSinkThreadFactory.scala[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
